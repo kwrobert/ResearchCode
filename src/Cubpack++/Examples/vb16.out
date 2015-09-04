@@ -1,0 +1,10 @@
+The integral is -0.40723 with absolute error 0.0203598
+85326 function evaluations were used.
+Contribution of the different parts:
+R1: integral and error are -0.283108 and 0.0108838
+T1: integral and error are -0.221416 and 1.09496e-06
+T2: integral and error are 0.0687155 and 0.00452898
+T3: integral and error are 0.0285785 and 0.00494587
+
+The integral is -0.408245 with absolute error 0.0203875
+85189 function evaluations were used.

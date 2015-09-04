@@ -1,0 +1,32 @@
+Lens-shaped parabolic region, weight function 1/r
+Parameters of region (0 to exit): a, b = ? 1 2
+Exponents alfa, beta in x^alfa*y^beta ?  0 0
+The integral is 4 with estimated absolute error 2.93428e-05
+100048 function evaluations were used.
+The exact result should be 4
+Parameters of region (0 to exit): a, b = ? 1 2
+Exponents alfa, beta in x^alfa*y^beta ?  2 0
+The integral is 10.0444 with estimated absolute error 4.58671e-06
+5032 function evaluations were used.
+The exact result should be 10.0444
+Parameters of region (0 to exit): a, b = ?  1 2
+Exponents alfa, beta in x^alfa*y^beta ? 0 2
+The integral is 7.11111 with estimated absolute error 3.53955e-06
+5846 function evaluations were used.
+The exact result should be 7.11111
+Parameters of region (0 to exit): a, b = ? 1 2
+Exponents alfa, beta in x^alfa*y^beta ? 4 0
+The integral is 77.7727 with estimated absolute error 3.70413e-05
+1776 function evaluations were used.
+The exact result should be 77.7727
+Parameters of region (0 to exit): a, b = ? 1 2
+Exponents alfa, beta in x^alfa*y^beta ? 2 2
+The integral is 31.3295 with estimated absolute error 1.27751e-05
+2590 function evaluations were used.
+The exact result should be 31.3295
+Parameters of region (0 to exit): a, b = ? 1 2 
+Exponents alfa, beta in x^alfa*y^beta ? 0 4
+The integral is 40.96 with estimated absolute error 1.97595e-05
+1110 function evaluations were used.
+The exact result should be 40.96
+Parameters of region (0 to exit): a, b = ? 0

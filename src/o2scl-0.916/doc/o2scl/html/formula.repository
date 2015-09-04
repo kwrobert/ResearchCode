@@ -1,0 +1,558 @@
+\form#0:$ T=1 $
+\form#1:\[ x_{i,\mathrm{new}} = \mathrm{step\_size}_i (2 u_i - 1) + x_{i,\mathrm{old}} \]
+\form#2:$u_i$
+\form#3:$ \mathrm{ncols} \times \mathrm{nrows} $
+\form#4:$ \pi $
+\form#5:$ \pi^2 $
+\form#6:$ \zeta(3/2) $
+\form#7:$ \zeta(2) $
+\form#8:$ \zeta(5/2) $
+\form#9:$ \zeta(3) $
+\form#10:$ \zeta(5) $
+\form#11:$ \zeta(7) $
+\form#12:$ \sin^2 \theta_W $
+\form#13:$ 1.166364 \times 10^{-5}~\mathrm{GeV}^{-2} $
+\form#14:$ \hbar c $
+\form#15:\begin{eqnarray*} &\vec{\nabla} \cdot \vec{E} = 4 \pi \rho \, , \quad \vec{E}=-\vec{\nabla} \Phi \, , \quad \nabla^2 \Phi = - 4 \pi \rho \, , &\\& F=\frac{q_1 q_2}{r^2} \, , \quad W=\frac{1}{2} \int \rho V d^3 x =\frac{1}{8 \pi} \int | \vec{E} |^2 d^3 x \, , \quad \alpha=\frac{e^2}{\hbar c}=\frac{1}{137}& \end{eqnarray*}
+\form#16:$\hbar=c=1$
+\form#17:\begin{eqnarray*} &\vec{\nabla} \cdot \vec{E} = \rho \, , \quad \vec{E}=-\vec{\nabla} \Phi \, , \quad \nabla^2 \Phi = - \rho \, , &\\& F=\frac{q_1 q_2}{4 \pi r^2} \, , \quad W=\frac{1}{2} \int \rho V d^3 x =\frac{1}{2} \int | \vec{E} |^2 d^3 x \, , \quad \alpha=\frac{e^2}{4 \pi}=\frac{1}{137}& \end{eqnarray*}
+\form#18:\begin{eqnarray*} &\vec{\nabla} \cdot \vec{E} = \rho \, , \quad \vec{E}=-\vec{\nabla} \Phi \, , \quad \nabla^2 \Phi = - \rho \, , &\\& F=\frac{1}{4 \pi \varepsilon_0}\frac{q_1 q_2}{r^2} \, , \quad W=\frac{1}{2} \int \rho V d^3 x =\frac{\varepsilon_0}{2} \int | \vec{E} |^2 d^3 x \, , \quad \alpha=\frac{e^2}{4 \pi \varepsilon_0 \hbar c}=\frac{1}{137}& \end{eqnarray*}
+\form#19:\[ q_HL=\sqrt{4 \pi} q_G = \frac{1}{\sqrt{\varepsilon_0}} q_{SI} \]
+\form#20:$\mathrm{Gauss}$
+\form#21:$\mathrm{fm}^{-2}$
+\form#22:$ \mathrm{Gauss}^2 $
+\form#23:$\mathrm{fm}^{-4}$
+\form#24:$ \Lambda $
+\form#25:$ \mathrm{MeV} $
+\form#26:$ \hbar $
+\form#27:\[ \alpha_i^2+\beta_i^2 \geq 9 \]
+\form#28:$ \alpha $
+\form#29:$ \beta $
+\form#30:$ \tau $
+\form#31:$ y(x) = \mathrm{level} $
+\form#32:$ y(x) $
+\form#33:$ \mathrm{level} = y(x) $
+\form#34:\[ \int_{x_0}^{x^{n-1}} y(x)~dx \]
+\form#35:$ g(y_0) $
+\form#36:$ y_0 $
+\form#37:$ y(x) > y_0 $
+\form#38:$ g(y) $
+\form#39:$ 1~\sigma $
+\form#40:$ g $
+\form#41:$ y(x=x_0) $
+\form#42:$ y^{\prime}(x=x_0) $
+\form#43:$ y^{\prime \prime}(x=x_0) $
+\form#44:$ \int_a^{b}y(x)~dx $
+\form#45:$ \left[1+\exp\left(E/T-\mu/T\right)\right]^{-1} $
+\form#46:$ \exp(\mathrm{limit}) $
+\form#47:$ \exp(-\mathrm{limit}) $
+\form#48:$ 10^{17} $
+\form#49:$ h \in [0,360] $
+\form#50:$ s \in [0,1] $
+\form#51:$ v \in [0,1] $
+\form#52:$ \in [0,1] $
+\form#53:$ (x,y) $
+\form#54:$ {\cal O}(\log(C)) $
+\form#55:$ {\cal O}(1) $
+\form#56:$ {\cal O}(R C) $
+\form#57:$ {\cal O}(C) $
+\form#58:$ {\cal O}(R \log(C)) $
+\form#59:$ {\cal O}(\log(C) \log(R)) $
+\form#60:$ {\cal O}(\log(R) \log(C)) $
+\form#61:$ {\cal O}(C \log(R) $
+\form#62:$ {\cal O}(\log(R)) $
+\form#63:$ y^{\prime}(x) $
+\form#64:$ y^{\prime \prime}(x) $
+\form#65:$ {\cal O}(R) $
+\form#66:\[ \left( \left( i_0 s_1 + i_1 \right) s_2 + i_2 \right) s_3 + i_3 \, . \]
+\form#67:$(i_0,i_1, i_2,i_3)$
+\form#68:$ (i_0+1,i_1,i_2,i_3) $
+\form#69:$ s_1 s_2 s_3 $
+\form#70:$(i_0,i_1,i_2, i_3)$
+\form#71:$ (i_0,i_1+1,i_2,i_3) $
+\form#72:$ s_2 s_3 $
+\form#73:$(i_0,i_1,i_2,i_3)$
+\form#74:$ (i_0,i_1,i_2,i_3+1) $
+\form#75:$ (\mathrm{size})_0 $
+\form#76:$ (\mathrm{size})_1 $
+\form#77:\[ \sum_{i=0}^{\mathrm{rank}} (\mathrm{size})_i \]
+\form#78:$ 2^{\mathrm{rank}} $
+\form#79:$ 2^{\mathrm{rank-1}} $
+\form#80:$|\mathrm{result}-\mathrm{expected}|/ \mathrm{expected}<\mathrm{rel\_error}$
+\form#81:$|\mathrm{result}-\mathrm{expected}|/ <\mathrm{abs\_error}$
+\form#82:$1/\mathrm{factor} < \mathrm{result/expected} < \mathrm{factor}$
+\form#83:$\mathrm{result}=\mathrm{expected}$
+\form#84:$|\mathrm{result}-\mathrm{expected}| <\mathrm{rel\_error}$
+\form#85:$ 1/factor < result/expected < factor $
+\form#86:$ i \in [0,\mathrm{n_{bins}}] $
+\form#87:$ (M,N) $
+\form#88:$ {\cal O}(k N) $
+\form#89:$ k << N $
+\form#90:$ 10^{-6} $
+\form#91:\[ f^{\prime}(x) = [f(x+h)-f(x-h)]/(2h) \]
+\form#92:$ 5 \times 10^{14} $
+\form#93:$ p \times h $
+\form#94:\[ f^{\prime}(x_0+p h)=\frac{1}{h}\left[ f_{1}-f_{0} \right] \]
+\form#95:\[ f^{\prime}(x_0+p h)=\frac{1}{h}\left[ \frac{2p-1}{2}f_{-1}-2 p f_{0}+\frac{2p+1}{2}f_{1}\right] \]
+\form#96:\[ f^{\prime}(x_0+p h)=\frac{1}{h}\left[ -\frac{3 p^2-6 p+2}{6}f_{-1} +\frac{3 p^2-4 p -1}{2}f_{0} -\frac{3 p^2-2 p-2}{2}f_{1} +\frac{3 p^2-1}{6}f_{2} \right] \]
+\form#97:\begin{eqnarray*} f^{\prime}(x_0+p h)&=&\frac{1}{h}\left[ \frac{2 p^3-3 p^2-p+1}{12}f_{-2} -\frac{4 p^3-3p^2-8p+4}{6}f_{-1} \right. \\ && \left. +\frac{2p^3-5p}{2}f_{0} -\frac{4p^3+3p^2-8p-4}{6}f_{1} \right. \\ && \left. +\frac{2p^3+3p^2-p-1}{12}f_{2} \right] \end{eqnarray*}
+\form#98:\[ f^{\prime}(x_0+p h)=\frac{1}{h^2} \left[f_{-1}-2 f_0+f_1\right] \]
+\form#99:\[ f^{\prime}(x_0+p h)=\frac{1}{2 h^2} \left[\left(1-2p\right)f_{-1}-\left(1-6p\right)f_0 -\left(1+6p\right)f_1+\left(1+2p\right)f_2\right] \]
+\form#100:\[ f^{\prime}(x_0+p h)=\frac{1}{4 h^2} \left[\left(1-2p\right)^2f_{-2} +\left(8p-16 p^2\right)f_{-1} -\left(2-24 p^2\right)f_0 -\left(8p+16p^2\right)f_1 +\left(1+2p\right)^2 f_2\right] \]
+\form#101:\begin{eqnarray*} f^{\prime}(x_0+p h)&=&\frac{1}{12 h^2}\left[ \left(2-10p+15 p^2-6p^3\right)f_{-2} +\left(3+14p-57p^2+30p^3\right)f_{-1} \right. \\ && \left. +\left(-8+20p+78 p^2-60p^3\right)f_0 +\left(-2-44p-42p^2+60p^3\right)f_1 \right. \\ && \left. +\left(6+22p+3p^2-30p^3\right)f_2 +\left(-1-2p+3p^2+6p^3\right)f_3 \right] \end{eqnarray*}
+\form#102:\begin{eqnarray*} f^{\prime}(x_0+p h)&=&\frac{1}{36 h^2}\left[ \left(4-24p+48p^2-36p^3+9p^4\right)f_{-3} +\left(12+12p-162p^2+180p^3-54p^4\right)f_{-2} \right. \\ && \left. +\left(-15+120p+162p^2-360p^3+135p^4\right)f_{-1} -4\left(8+48p-3p^2-90p^3+45p^4\right)f_0 \right. \\ && \left. +3\left(14+32p-36p^2-60p^3+45p^4\right)f_1 +\left(-12-12p+54p^2+36p^3-54p^4\right)f_2 \right. \\ && \left. +\left(1-6p^2+9p^4\right)f_3 \right] \end{eqnarray*}
+\form#103:$ 10^{-4} $
+\form#104:$ x 10^{-4} $
+\form#105:$ dx $
+\form#106:$ \chi^2 $
+\form#107:$ Q S^{-1} $
+\form#108:$ \sim 2.22\times 10^{-16} $
+\form#109:\[ \mathrm{xpred} \cdot \mathrm{parms} = \mathrm{ydat} \]
+\form#110:\[ |dx_i| < \mathrm{tol\_abs}+\mathrm{tol\_rel}\times|x_i| \]
+\form#111:$dx$
+\form#112:$x$
+\form#113:\[ \sum_i |g_i| < \mathrm{tol\_abs} \]
+\form#114:$g_i$
+\form#115:$i$
+\form#116:$\Phi(x)$
+\form#117:\[ \Phi(x) = || F(x) ||^2 \]
+\form#118:$ \mathrm{trial}=\mathrm{x}+\mathrm{dx} $
+\form#119:\[ \mathrm{diag\_vec}_j = \sqrt{\sum_{i=0}^{\mathrm{ndata}-1} J_{ij}} \]
+\form#120:$ 0\leq j \leq \mathrm{nparm}-1 $
+\form#121:$ 10^6 $
+\form#122:$ 10^{-8} $
+\form#123:\[ \mathrm{err}\leq\mathrm{tol\_abs}~\mathrm{or}~ \mathrm{err}\leq\mathrm{tol\_rel}\cdot|I| \]
+\form#124:$ I $
+\form#125:$ \mathrm{err} $
+\form#126:$ \frac{f(x)}{(x-s)} $
+\form#127:$ (x-s) $
+\form#128:$ I_5 $
+\form#129:$ I_6 $
+\form#130:$ \frac{1}{2}(I_5+I_6) $
+\form#131:$ |I_5-I_6| $
+\form#132:$ (a,b) $
+\form#133:$ g_8(a,b) $
+\form#134:$ g_{16}(a,b) $
+\form#135:\[ I=\int_a^b f(x)~dx \]
+\form#136:\[ r(a,b)=\frac{|g_{16}(a,b)-g_{8}(a,b)|}{1+g_{16}(a,b)} \]
+\form#137:$ G $
+\form#138:\[ G=\sum_{i=1}^{k} g_{16}(x_{i-1},x_i) \]
+\form#139:$ x_0=a $
+\form#140:$ x_k=b $
+\form#141:$ x_i $
+\form#142:\[ x_i=x_{i-1}+\lambda(B-x_{i-1}) \]
+\form#143:$ \lambda $
+\form#144:$ 1,\frac{1}{2},\frac{1}{4},... $
+\form#145:\[ r(x_{i-1},x_i)<\mathrm{eps}. \]
+\form#146:\[ q=\left| \frac{x_i-x_{i-1}}{b-a} \right| \]
+\form#147:$ 1+0.005 q $
+\form#148:$ |I|>1 $
+\form#149:$ |I|<1 $
+\form#150:$ k $
+\form#151:\[ I_{abs} = \int_a^b |f(x)|~dx \]
+\form#152:\[ \frac{|G-I|}{I_{abs}+k}<\mathrm{tol_rel} \]
+\form#153:\[ \int_{x_0=a_0}^{x_0=b_0} f(x_0) \int_{x_1=a_1(x_0)}^{x_1=b_1(x_0)} f(x_0, x_1) ... \int_{x_{\mathrm{n}-1}=a_{\mathrm{n}-1}(x_0,x_1,..,x_{\mathrm{n}-2})}^ {x_{\mathrm{n}-1}=b_{\mathrm{n}-1}(x_0,x_1,..,x_{\mathrm{n}-2})} f(x_0,x_1,...,x_{\mathrm{n-1}})~d x_{\mathrm{n}-1}~...~d x_1~d x_0 \]
+\form#154:$ a_i $
+\form#155:$ b_i $
+\form#156:$ a_0() $
+\form#157:$ a_1() $
+\form#158:$ x_i=a_i(x_i) $
+\form#159:$ x_i=b_i(x_i) $
+\form#160:$ 0<i<\mathrm{ndim}-1 $
+\form#161:$ f_0 $
+\form#162:$ f_{n-1} $
+\form#163:$ {\ell}_i=f_i(x_i) $
+\form#164:$ u_i=g_i(x_i) $
+\form#165:$ 0<i<\mathrm{n}-1 $
+\form#166:$ \rho_{\mathrm{abs}} $
+\form#167:\begin{eqnarray*} \rho_{\mathrm{abs}} &=& \int_a^b |f|\,dx, \\ \rho_{\mathrm{asc}} &=& \int_a^b |f - \mu(f)|\, dx, \qquad \mu(f) = \frac{1}{b-a}\int_a^b f\, dx, \end{eqnarray*}
+\form#168:$ \sigma_\mathrm{err}, $
+\form#169:\[ \sigma_\mathrm{err} = \rho_\mathrm{asc} \cdot \min \left\{1, \; \left(\frac{200 |\mathrm{err}|}{\rho_\mathrm{asc}} \right)^{3/2} \right\}, \]
+\form#170:\[ \sigma_\mathrm{err} = 50\cdot \epsilon_\mathrm{mach} \cdot \rho_\mathrm{abs}, \]
+\form#171:$ \epsilon_\mathrm{mach} $
+\form#172:$ [0, 1). $
+\form#173:$ 2m+1 $
+\form#174:$ x_1, \ldots, x_{2m+1} \in (a, b) $
+\form#175:\[ \int_a^b f~dx \; \approx \; Q_m^{GK}f \; \equiv \; \sum_{k=1}^{2m+1} \beta_k f(x_k), \]
+\form#176:$ \beta_1,\ldots, \beta_{2m+1} $
+\form#177:\[ Q_m^{G}f \; \equiv \; \sum_{j=1}^{m} \alpha_j f(x_{2j}), \]
+\form#178:$ |Q_m^Gf - Q_m^{GK}f| $
+\form#179:\begin{eqnarray*} \mathtt{result} &=& Q_m^{GK}f, \\ \mathtt{resabs} &=& Q_m^{GK}|f|, \\ \mathtt{resasc} &=& Q_m^{GK}(|f| - \mu), \quad \mu \equiv \frac{Q_m^{GK}f}{b - a}. \end{eqnarray*}
+\form#180:$ x_i=a_i $
+\form#181:$ x_i=b_i $
+\form#182:$ 0<i< $
+\form#183:\[ \int_{x_0=a_0}^{x_0=b_0} \int_{x_1=a_1}^{x_1=b_1} ... \int_{x_{\mathrm{n}-1}=a_{\mathrm{n}-1}}^ {x_{\mathrm{n}-1}=b_{\mathrm{n}-1}} f(x_0,x_1,...,x_{\mathrm{n}}) \]
+\form#184:$ (-\infty,\infty) $
+\form#185:$ \infty $
+\form#186:$ t \in (0,1] $
+\form#187:$ (-\infty, b] $
+\form#188:$ (0, 1] $
+\form#189:\[ \int_{-\infty}^b f(x)~dx = \int_0^1 f(b - (1-t)/t)t^{-2}~dt, \]
+\form#190:$ -\infty $
+\form#191:$ [a, \infty) $
+\form#192:\[ \int_a^{\infty} f(x)~dx = \int_0^1 f(a + (1-t)/t)t^{-2}~dt, \]
+\form#193:\[ \int_a^b \frac{f(x)}{x-c}~dx = \lim_{\epsilon\to 0^+} \left\{ \int_a^{c-\epsilon} \frac{f(x)}{x-c}~dx + \int_{c+\epsilon}^b \frac{f(x)}{x-c}~dx \right\}. \]
+\form#194:$ (a,b), $
+\form#195:$ c, $
+\form#196:$ x = c$
+\form#197:$ x = c $
+\form#198:\[ f(x) = \frac{a_0}{2}T_0(x) + \frac{a_d}{2}T_d(x) + \sum_{k=}^{d-1} a_k^{(d)}T_k(x), \]
+\form#199:$ d=12 $
+\form#200:$ d=24 $
+\form#201:$ C^{12}_{k} $
+\form#202:$ C^{24}_{k} $
+\form#203:$ [a,b] $
+\form#204:\[ f = \sum_{k=1}^{13} C^{12}_{k} T_{k-1}(x) \]
+\form#205:\[ f = \sum_{k=1}^{25} C^{24}_{k} T_{k-1}(x) \]
+\form#206:$ T_{k-1}(x) $
+\form#207:$ k-1 $
+\form#208:$ x $
+\form#209:\[ \int_a^{\infty} f(x) \sin(\omega x)~dx \]
+\form#210:$ \omega $
+\form#211:\begin{eqnarray*} C_1 &=& [a, a+c] \\ C_2 &=& [a+c, a+2c] \\ &\vdots & \\ C_k &=& [a +(k-1)c,\, a+kc], \end{eqnarray*}
+\form#212:$ c = (2\mathrm{floor}(|\omega|)+1)\pi/|\omega|$
+\form#213:$ f $
+\form#214:$ \varepsilon $
+\form#215:$ C_k$
+\form#216:\[ \mathrm{TOL}_k = u_k\cdot \epsilon_{\mathrm{abs}} \]
+\form#217:$ u_k = (1-p)p^{k-1} $
+\form#218:$ p = 0.9$
+\form#219:$ \epsilon_{\mathrm{abs}}$
+\form#220:\[ \mathrm{TOL}_k = u_k\cdot \max\{\epsilon_{\mathrm{abs}}, E_1, \ldots, E_{k-1} \} \]
+\form#221:$ E_k$
+\form#222:\[ \int_a^{\infty} f(x) \cos(\omega x)~dx \]
+\form#223:\[ \int_a^b f(x) \sin (\omega x)~dx \]
+\form#224:$ d \equiv b-a $
+\form#225:$ d\omega > 4 $
+\form#226:$ W $
+\form#227:\[ \int_a^b f(x) \cos (\omega x)~dx \]
+\form#228:\[ \int_a^b f(x)(x - a)^\alpha (b - x)^\beta \log^\mu(x - a) \log^\nu(b - x)~dx \]
+\form#229:\[ \alpha > -1, \quad \beta > -1, \quad \mu \in \{0, 1\}, \quad \nu \in \{0, 1\}, \]
+\form#230:$ \mu=0 $
+\form#231:$ \nu=0 $
+\form#232:$ \log^mu(\ldots) $
+\form#233:$ \log^\nu(\ldots) $
+\form#234:$ \alpha, \beta, \mu, \nu $
+\form#235:\[ W(x) = (x-a)^\alpha (b-x)^\beta \log^\mu(x-a) \log^\nu(b-x), \]
+\form#236:\[ \alpha > -1, \quad \beta > -1, \quad \mu \in \{0, 1\}, \quad \nu \in \{0, 1\}. \]
+\form#237:$ \mathrm{tol_{abs}} \leq 0 $
+\form#238:$ \mathrm{tol_{rel}} < 50 \cdot \epsilon_\mathrm{double} $
+\form#239:$ \epsilon_\mathrm{double} \approx 1.11 \times 10^{-14}) $
+\form#240:$ 5 \times 10^{-29} $
+\form#241:$ f = |f| $
+\form#242:$ \sum_k a_k $
+\form#243:$ E_n = \sum_{k=n}^\infty a_k $
+\form#244:$ \varepsilon$
+\form#245:$ M\geq N $
+\form#246:$ A = U B V^T $
+\form#247:$ B $
+\form#248:$ U $
+\form#249:$ V $
+\form#250:$ M \geq N $
+\form#251:\[ {\vec x} = \left( \begin{array}{c} x_0 \\ x_1 \\ . \\ . \\ x_{\mathrm{ie}} \\ x_{\mathrm{ie}+1} \\ . \\ . \\ x_{\mathrm{N}-1} \\ x_{\mathrm{N}} \\ x_{\mathrm{N}+1} \\ . \\ . \end{array} \right) \]
+\form#252:$ x_{\mathrm{ie}} $
+\form#253:$ x_{\mathrm{N}-1} $
+\form#254:\[ m = \left( \begin{array}{ccccccc} m_{0,0} & m_{0,1} & . & . & m_{0,\mathrm{ic}} & . & . \\ m_{1,0} & m_{1,1} & . & . & m_{1,\mathrm{ic}} & . & . \\ . & . & . & . & . & . & . \\ . & . & . & . & m_{\mathrm{ir},\mathrm{ic}} & . & . \\ . & . & . & . & m_{\mathrm{ir}+1,\mathrm{ic}} & . & . \\ . & . & . & . & . & . & . \\ . & . & . & . & . & . & . \\ . & . & . & . & m_{\mathrm{N}-1,\mathrm{ic}} & . & . \\ . & . & . & . & m_{\mathrm{N},\mathrm{ic}} & . & . \\ . & . & . & . & m_{\mathrm{N}+1,\mathrm{ic}} & . & . \\ . & . & . & . & . & . & . \\ \end{array} \right) \]
+\form#255:$ m_{\mathrm{ir},\mathrm{ic}} $
+\form#256:$ m_{\mathrm{N}-1,\mathrm{ic}} $
+\form#257:\[ m = \left( \begin{array}{ccccccccccc} m_{0,0} & m_{0,1} & . & . & . & . & . & . & . & . & . \\ m_{1,0} & m_{1,1} & . & . & . & . & . & . & . & . & . \\ . & . & . & . & . & . & . & . & . & . & . \\ . & . & . & . & . & . & . & . & . & . & . \\ m_{\mathrm{ir},0} & . & . & m_{\mathrm{ir},\mathrm{ic}} & m_{\mathrm{ir},\mathrm{ic}+1} & . & . & m_{\mathrm{ir},\mathrm{N}-1} & m_{\mathrm{ir},\mathrm{N}} & m_{\mathrm{ir},\mathrm{N}+1} & . \\ . & . & . & . & . & . & . & . & . & . & . \\ \end{array} \right) \]
+\form#258:$ m_{\mathrm{ir},\mathrm{N}-1} $
+\form#259:$ y= \alpha x+y $
+\form#260:$ r=x \cdot y $
+\form#261:$ x=\alpha x $
+\form#262:$ y=\alpha \left[\mathrm{op}(A)\right] x+ \beta y $
+\form#263:$ x=\mathrm{op} (A)^{-1} x $
+\form#264:$ x=op(A) x $
+\form#265:$ y=\alpha \mathrm{op}(A) \mathrm{op}(B) + \beta C $
+\form#266:$ y=\alpha x+y $
+\form#267:$ x= \alpha x $
+\form#268:$ x = \alpha x $
+\form#269:\[ \left[ \begin{array}{cc} c & -s \\ s & c \end{array} \right] \left[ \begin{array}{c} a \\ b \end{array} \right] = \left[ \begin{array}{c} r \\ 0 \end{array} \right] \]
+\form#270:$ Q \rightarrow Q G $
+\form#271:$ R \rightarrow G^{T} R $
+\form#272:$ L \rightarrow L G^{T} $
+\form#273:$ v \rightarrow G^{T} v $
+\form#274:$ \tau = 2/ (v^{T} v) $
+\form#275:$ (v,\tau) $
+\form#276:$ A $
+\form#277:$ n-1 $
+\form#278:$ A x = b $
+\form#279:$ \ln|\det(A)| $
+\form#280:$ \det(A)/|\det(A)| $
+\form#281:\[ A = U~D~V^T \]
+\form#282:\[ U^T~U = I \qquad \mathrm{and} \qquad V^T~V = V~V^T = I \]
+\form#283:$ M \gg N $
+\form#284:$ M>N $
+\form#285:$ x_i=\mathrm{xl}_i $
+\form#286:$ x_i=\mathrm{xu}_i $
+\form#287:$(0,1]$
+\form#288:$[0,\mathrm{max}-1]$
+\form#289:$ 5 d $
+\form#290:$ 10 d $
+\form#291:$ d $
+\form#292:$ c= $
+\form#293:$ w= $
+\form#294:$ h= $
+\form#295:$ h (1+|x-c-w|/w) $
+\form#296:$ x>c+w $
+\form#297:$ h (1+|x-c+w|/w) $
+\form#298:$ x<c-w $
+\form#299:$ x=c-w $
+\form#300:$ x=c+w $
+\form#301:$ h $
+\form#302:$ x=c-2w $
+\form#303:$ x=c+2w $
+\form#304:$ 2 h $
+\form#305:$ t= $
+\form#306:$ \ell= $
+\form#307:\[ h \left(\frac{x-c}{w}\right)^2 \left[ 1+ e^{t\left(x-c+w\right)\left(c+w-x\right)/w^2} \right]^{-1} \]
+\form#308:$ x=c $
+\form#309:$ \exp(-\ell) $
+\form#310:$ \ell $
+\form#311:$ t \rightarrow \infty $
+\form#312:$ h(1+|x-c|/w) $
+\form#313:$ x<c $
+\form#314:$ h(c-x+w)/(w+w\exp(t(x-c)/w)) $
+\form#315:$ h/2 $
+\form#316:$ c $
+\form#317:$ bx-ax $
+\form#318:$ \mathrm{tol} = \mathrm{tol\_abs} + \mathrm{tol\_rel} \cdot \mathrm{min} $
+\form#319:$ \mathrm{min} = \mathrm{min}(|\mathrm{lower}|,|\mathrm{upper}|) $
+\form#320:$ x_1 < x_2 < x_3 $
+\form#321:$ f(x_1) > f(x_2) $
+\form#322:$ f(x_3) > f(x_2) $
+\form#323:$ n $
+\form#324:\[ n=\left[ 2.08 \ln(|a-b|/\mathrm{tol\_abs})+\frac{1}{2}\right]+1 \]
+\form#325:$ \mathrm{tol\_abs}>10^{-8} $
+\form#326:$ \mathrm{tol\_abs} $
+\form#327:$ a $
+\form#328:$ b $
+\form#329:$ \delta $
+\form#330:$ \delta=10 \mathrm{tol_abs} $
+\form#331:$ x_1<x_2<x_3 $
+\form#332:$ f(x_1)>f(x_2) $
+\form#333:$ f(x_3)>f(x_2) $
+\form#334:$ 10^{-15} $
+\form#335:$ (1,0,7\pi) $
+\form#336:$ 10^{-99} $
+\form#337:$ 10^{-30} $
+\form#338:$ 10^{30} $
+\form#339:$ x_j $
+\form#340:$ s_k $
+\form#341:$ 0\leq k<n_s $
+\form#342:$ p_{ij} $
+\form#343:$ 0\leq i\leq n $
+\form#344:$ 0\leq j<n $
+\form#345:$ p_{0j} = x_j $
+\form#346:\begin{eqnarray*} p_{i+1,j} &=& x_j\quad\mathrm{for}\quad i\neq j \\ p_{i+1,j} &=& x_j+s_{j~\mathrm{mod}~n_s}\quad\mathrm{for}\quad i=j \end{eqnarray*}
+\form#347:$ 0<i<n $
+\form#348:$ s $
+\form#349:$ \mathrm{mod} $
+\form#350:$ (1/n) \sum || y - y_{\mathrm{center}} || $
+\form#351:$ y(t) $
+\form#352:$ y^{\prime}(t) $
+\form#353:$ D_i $
+\form#354:\[ D_i = \mathrm{eps\_abs}+\mathrm{eps\_rel} \times \left( \mathrm{a\_y} | y_i| + \mathrm{a\_dydt}~h | y_i^{\prime}| \right) \]
+\form#355:$ s_i $
+\form#356:\[ D_i = \mathrm{eps\_abs}~s_i+\mathrm{eps\_rel} \times \left( \mathrm{a\_y} | y_i| + \mathrm{a\_dydt}~h | y_i^{\prime}| \right) \]
+\form#357:$ E_i = |\mathrm{yerr}_i| $
+\form#358:$ E $
+\form#359:$ D $
+\form#360:\[ h_{\mathrm{new}} = S~h_{\mathrm{old}} \left(\frac{E}{D}\right)^{-1/q} \]
+\form#361:$ q $
+\form#362:$ q=4 $
+\form#363:$ S $
+\form#364:$ E/D $
+\form#365:$ E_i/D_i $
+\form#366:\[ h_{\mathrm{new}} = S~h_{\mathrm{old}} \left(\frac{E}{D}\right)^{-1/(q+1)} \]
+\form#367:$ N $
+\form#368:$ M $
+\form#369:$ i>M $
+\form#370:$ s_{i\%M} $
+\form#371:$ \partial f_{left,\mathrm{ieq}} / \partial y_{\mathrm{ivar}} $
+\form#372:$ \partial f_{right,\mathrm{ieq}} / \partial y_{\mathrm{ivar}} $
+\form#373:$ \partial f_{\mathrm{ieq}} / \partial y_{\mathrm{ivar}} $
+\form#374:$ x+h $
+\form#375:\[ f(x) = \sum_n c_n T_n(x) \]
+\form#376:$ T_n(x)=\cos(n \arccos x) $
+\form#377:$ a < b $
+\form#378:$ (\mathrm{nx},\mathrm{ny}) $
+\form#379:\[ (\mathrm{xfact}~(\mathrm{nx}-1)+1, \mathrm{yfact}~(\mathrm{ny}-1)+1) \]
+\form#380:$ \frac{\partial^2 f}{\partial x \partial y} $
+\form#381:\[ \frac{\partial^m}{\partial x^m} \frac{\partial^n}{\partial y^n} f(x,y) \]
+\form#382:$ m \in (-1,0,1,2) $
+\form#383:$ n \in (-1,0,1,2) $
+\form#384:\begin{eqnarray*} \frac{\partial^{-1}}{\partial x^{-1}} &\equiv & \int_{x_0}^{x_1} f~dx \nonumber \\ \frac{\partial^0}{\partial x^0} &\equiv & \left.f\right|_{x=x_0} \nonumber \\ \frac{\partial^1}{\partial x^1} &\equiv & \left(\frac{\partial f}{\partial x}\right)_{x=x_0} \nonumber \\ \frac{\partial^2}{\partial x^2} &\equiv & \left(\frac{\partial^2 f}{\partial x^2}\right)_{x=x_0} \end{eqnarray*}
+\form#385:$ x_1 $
+\form#386:$ m \geq 0 $
+\form#387:$ y_1 $
+\form#388:$ n \geq 0 $
+\form#389:\[ f(x_0+p h,y_0+q k)= \]
+\form#390:\[ (1-p-q) f_{0,0}+p f_{1,0}+q f_{0,1} \]
+\form#391:\[ (1-p)(1-q) f_{0,0}+p(1-q)f_{1,0}+q(1-p)f_{0,1}+pqf_{1,1} \]
+\form#392:\[ \frac{q(q-1)}{2}f_{0,-1}+\frac{p(p-1)}{2}f_{-1,0}+ (1+pq-p^2-q^2)f_{0,0}+\frac{p(p-2q+1)}{2}f_{1,0}+ \frac{q(q-2p+1)}{2}f_{0,1}+pqf_{1,1} \]
+\form#393:$ {x_i,y_i,f_i} $
+\form#394:\[ d_{ij} = \sqrt{\left(\frac{x_i-x_j}{\Delta x}\right)^2 + \left(\frac{y_i-y_j}{\Delta y}\right)^2} \]
+\form#395:$ \Delta_x $
+\form#396:$ \Delta_y $
+\form#397:$ \Delta x = x_{\mathrm{max}}-x_{\mathrm{min}} $
+\form#398:$ \Delta y = y_{\mathrm{max}}-y_{\mathrm{min}} $
+\form#399:$ {\cal O}(N) $
+\form#400:$ 10^{-12} $
+\form#401:\[ \sum_{k=1}^{3}\varepsilon_{ijk} x_i y_j < \mathrm{thresh} \]
+\form#402:$ \varepsilon_{ijk} $
+\form#403:$ {\cal O}(N \log N) $
+\form#404:$ (x_1,y_1) $
+\form#405:$ (x_2,y_2) $
+\form#406:$ (x_3,y_3) $
+\form#407:$ (x_4,y_4) $
+\form#408:$ a_2 x^2 + b_2 x + c_2 = 0 $
+\form#409:$ x=x_1 $
+\form#410:$ x=x_2 $
+\form#411:$ a_3 x^3 + b_3 x^2 + c_3 x + d_3= 0 $
+\form#412:$ x=x_3 $
+\form#413:$ a_4 x^4 + b_4 x^3 + c_4 x^2 + d_4 x + e_4 = 0 $
+\form#414:$ x=x_4 $
+\form#415:\[ x^3 + r x^2 + s x + t =0 \]
+\form#416:$ a_4 x^4 + b_4 x^3 + c_4 x^2 + d_4 x + e_4= 0 $
+\form#417:$ 10^{-7} $
+\form#418:$ Li_n(x)$
+\form#419:$n=0,1,...,6$
+\form#420:$-1<x<0$
+\form#421:$x<-1$
+\form#422:$Li(n,x)=x+2^{-n} x^2+3^{-n} x^3+...$
+\form#423:$ x \rightarrow 0$
+\form#424:\[ \mathrm{Li}_2 \left(\frac{1}{2}\right) = \frac{1}{12}\left[\pi^2-6\left(\ln 2\right)^2\right] \]
+\form#425:\[ \mathrm{Li}_3 \left(\frac{1}{2}\right) = \frac{1}{24}\left[ 4\left(\ln 2\right)^3 - 2 \pi^2 \ln 2 + 21 \zeta (3) \right] \]
+\form#426:\[ \mathrm{Li}_{-1} (x) = \frac{x}{\left(1-x\right)^2} \]
+\form#427:\[ \mathrm{Li}_{-2} (x) = \frac{x\left(x+1\right)}{\left(1-x\right)^3} \]
+\form#428:$ x/(1-x)$
+\form#429:$ -\ln(1-x) $
+\form#430:\[ P(x)=\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{\left(x-x_0\right)^2}{2\sigma^2}} \]
+\form#431:$ P(x)=1/(b-a) $
+\form#432:$ a<x<b $
+\form#433:\[ P(x)=\frac{1}{x \sigma \sqrt{2 \pi}} \exp \left[-\frac{\left(\ln x-\mu\right)^2}{2\sigma^2}\right] \]
+\form#434:$ - \int f \ln f $
+\form#435:\[ \frac{1}{N} \sum_{i} \left( x_i - \mu \right)^2 \]
+\form#436:$ \mu $
+\form#437:\[ \frac{1}{N-1} \sum_{i} \left( x_i - \mu \right)^2 \]
+\form#438:\[ \sqrt{\frac{1}{N} \sum_{i} \left( x_i - \mu \right)^2} \]
+\form#439:\[ \sqrt{\frac{1}{N-1} \sum_{i} \left( x_i - \mu \right)^2} \]
+\form#440:\[ \sum_i | x_i - \mu | \]
+\form#441:\[ \frac{1}{N} \sum_i \left[ \frac{ \left(x_i - \mu \right)}{ \sigma }\right]^3 \]
+\form#442:$ \sigma $
+\form#443:\[ -3 + \frac{1}{N} \sum_i \left[ \frac{ \left(x_i - \mu \right)}{ \sigma }\right]^4 \]
+\form#444:\[ \left[ \sum_i \left(x_i - \mu\right) \left(x_{i-1} - \mu \right) \right] \left[ \sum_i \left(x_i - \mu\right)^2 \right]^{-1} \]
+\form#445:\[ \left[ \sum_i \left(x_i - \mu\right) \left(x_{i-k} - \mu \right) \right] \left[ \sum_i \left(x_i - \mu\right)^2 \right]^{-1} \]
+\form#446:\[ \frac{1}{n-1} \sum_i \left(x_i - {\bar{x}}\right) \left(y_i - {\bar{y}}\right) \]
+\form#447:$ {\bar{x}} $
+\form#448:$ {\bar{y}} $
+\form#449:\[ s_{p}^2 = \frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2} \]
+\form#450:$ n_i $
+\form#451:$ i $
+\form#452:$ s_i^2 $
+\form#453:\[ q = \left(1-\delta\right) x_i \delta x_{i+1} \]
+\form#454:$ i = \mathrm{floor}[ (n-1)f ] $
+\form#455:$ \delta = (n-1)f -i $
+\form#456:$ 0 \leq 0 \leq 1 $
+\form#457:$ (n-1)/2 $
+\form#458:$ n/2 $
+\form#459:\[ \sum_i \left( \frac{\mathrm{obs}_i - \mathrm{exp}_i} {\mathrm{err}_i}\right)^2 \]
+\form#460:$ \mathrm{obs} $
+\form#461:$ \mathrm{exp} $
+\form#462:\[ \left( \sum_i w_i x_i \right) \left( \sum_i w_i \right)^{-1} \]
+\form#463:\[ \left[ \sum_i w_i \left(x_i-\mu\right)^2 \right] \left[ \sum_i w_i \right]^{-1} \]
+\form#464:$ h_j = \mathrm{epsrel}~x_j $
+\form#465:$ h_j = \mathrm{epsmin} $
+\form#466:$ \mathrm{epsrel}\times x_j < \mathrm{epsmin} $
+\form#467:$ x^{\prime}_i $
+\form#468:\[ 1:\quad \mathrm{max} | f_i(x) | \leq \mathrm{tol\_rel} \]
+\form#469:\[ 2:\quad \mathrm{max} |x_i-x^{\prime}_i| \leq \mathrm{tol\_abs} \times \mathrm{max} | x_i | \]
+\form#470:\begin{eqnarray*} &0=f_0(x_0,x_1,...,x_{n-1})& \\ &0=f_1(x_0,x_1,...,x_{n-1})& \\ &...& \\ &0=f_{n-1}(x_0,x_1,...,x_{n-1})& \\ \end{eqnarray*}
+\form#471:$ f_i $
+\form#472:$ \leq 0$
+\form#473:$ \mathrm{maxf}\leq 0 $
+\form#474:$ 50(\mathrm{nv}+3) $
+\form#475:$ \sim 1.49012 \times 10^{-8} $
+\form#476:$ \sum_i |f_i|<$
+\form#477:$ R \cdot g $
+\form#478:$ R \cdot \mathrm{dx} $
+\form#479:$ \vec{v} $
+\form#480:$ v_i = d_i ff_i $
+\form#481:$ Q^{T} f $
+\form#482:\[ \mathrm{pp}=\alpha \mathrm{newton}+\beta \mathrm{gradient} \]
+\form#483:$ A x-b $
+\form#484:$ d x $
+\form#485:$ Q^T f $
+\form#486:$ Q^T \cdot \mathrm{df} $
+\form#487:$ w=(Q^T df-R dx)/|dx| $
+\form#488:$ v=D^2 dx/|dx| $
+\form#489:$ x_1<x<x_2 $
+\form#490:$ x_2 $
+\form#491:$ f(x_1) f(x_2) \leq 0 $
+\form#492:$ |f(x_1)| \leq|f(x_2)| $
+\form#493:$ | x_1-x_2| \leq 2~\mathrm{tol\_abs}~(1+|x_0|) $
+\form#494:\[ x_{i+1} = x_i - f(x_i) / f^{\prime}(x_i) \]
+\form#495:\[ x_{\mathrm{acc},i} = x_i - (x_{i+1}-x_i)^2 / (x_{i+2} - 2 x_{i+1} + x_i) \]
+\form#496:$ \mathrm{root} $
+\form#497:$ \mathrm{x} $
+\form#498:$ | \mathrm{root} - \mathrm{x} | < \mathrm{tol} $
+\form#499:$ \mathrm{tol} = \mathrm{tol\_abs} + \mathrm{tol\_rel2}~\mathrm{root} $
+\form#500:$ \mathrm{variable} $
+\form#501:$ y $
+\form#502:\[ \left\{ 1+\frac{1}{p_2} \sin \left[ 50 \left( x-p_1 \right) \right] \right\} \tan^{-1} \left[ 4 \left( x-p_1 \right) \right] = 0 \]
+\form#503:$ p_1 = 0.01 $
+\form#504:$ p_2 = 1.1 $
+\form#505:$ p_1 $
+\form#506:$ p_2 $
+\form#507:\[ y(x) = \sin (2 x) + \frac{1}{2} \]
+\form#508:\[ W(x)=(x-a)^{\alpha}(b-x)^{\beta}\log^{\mu}(x-a)\log^{\nu}(b-x) \]
+\form#509:\[ |\mathrm{result}-I| \leq \mathrm{Max}(\mathrm{tol\_abs}, \mathrm{tol\_rel}|I|) \]
+\form#510:\[ |\mathrm{result}-I| \leq \mathrm{abserr} \leq \mathrm{Max}(\mathrm{tol\_abs},\mathrm{tol\_rel}|I|) \]
+\form#511:$ 50 \cdot \epsilon_\mathrm{mach} $
+\form#512:$ \approx 1.11 \times 10^{-14}$
+\form#513:$ L^1$
+\form#514:$ \int_{-\infty}^{\infty} e^{-x^2} ~dx $
+\form#515:$ \int_0^{\infty} e^{-x^2} ~dx $
+\form#516:$ \int_{-\infty}^{0} e^{-x^2} ~dx $
+\form#517:$ \int_0^1 \left[ \sin (2 x) + \frac{1}{2} \right]~dx $
+\form#518:$ \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \sqrt{x^3+y^3+z^3+x y^2 z}~dx~dy~dz $
+\form#519:\begin{eqnarray*} &2x^2-1& \nonumber \\ &4x^3-3 x& \nonumber \\ &8x^4-8x^2+1& \nonumber \\ &16x^5-20x^3+5x& \nonumber \end{eqnarray*}
+\form#520:\[ \cos \left[ \frac{\pi(k-1/2)}{n}\right] \]
+\form#521:$ k = 1,\ldots,n $
+\form#522:\begin{eqnarray*} \sin \left( x_0 - \frac{1}{4} \right) &=& 0 \nonumber \\ \sin \left( x_1 - \frac{1}{5} \right) &=& 0 \end{eqnarray*}
+\form#523:\[ y=\left(x_0-2\right)^2+\left(x_1-1\right)^2+x_2^2 \]
+\form#524:\[ f(x,y) = \left[x^2 \log(x)+1\right]\left[\sqrt{y}(y-1)+1\right)] \]
+\form#525:$ x<0 $
+\form#526:$ y<0 $
+\form#527:\[ \int_0^{\pi} \int_0^{\pi} \int_0^{\pi} \frac{1}{\pi^3} \left(1-\cos x \cos y \cos z\right)^{-1} \]
+\form#528:\[ f(x) = e^{-x^2} \left[ \sin(x-1.4)+1 \right] \]
+\form#529:$ x \in [-5,5] $
+\form#530:$ \int x f(x)~dx / \int f(x)~dx $
+\form#531:\[ f(x,y) = J_0(x-2) J_0(y+3) \]
+\form#532:$ J_0(x) $
+\form#533:$ (9,9) $
+\form#534:\[ y^{\prime\prime} = \frac{1}{x^2} \left[ y \left(\alpha^2 - x^2\right) -x y^{\prime} \right] \]
+\form#535:$ J_{\alpha}(x) $
+\form#536:$ \alpha=1 $
+\form#537:$ J_1(0) = 0 $
+\form#538:$ J_1^{\prime}(0) = 1/2 $
+\form#539:\[ y^{\prime\prime} = y x \]
+\form#540:$ Ai(x) $
+\form#541:\begin{eqnarray*} y_0^{\prime} &=& 480 y_0 + 980 y_1 \nonumber \\ y_1^{\prime} &=& -490 y_0 - 990 y_1 \end{eqnarray*}
+\form#542:\begin{eqnarray*} y_0 &=& -e^{-500 x} + 2 e^{-10 x} \nonumber \\ y_1 &=& e^{-500 x} - e^{-10 x} \end{eqnarray*}
+\form#543:\begin{eqnarray*} y_0^{\prime\prime} &=& y_1 \nonumber \\ y_1^{\prime\prime} &=& y_0+y_1\nonumber \\ y_2^{\prime\prime} &=& y_0+y_2 \end{eqnarray*}
+\form#544:\begin{eqnarray*} y_0(x=0)&=&1 \nonumber \\ y_1(x=0)^2+y_2(x=0)^2&=&2 \nonumber \\ y_1(x=1) &=& 3 \end{eqnarray*}
+\form#545:$ \left[ \sin \left( x/10 + 3 y/10 \right) \right]^2 $
+\form#546:$ -1<x<1 $
+\form#547:$ -1<y<1 $
+\form#548:\[ z = f(x,y) = 15 \exp \left[ - \frac{1}{20^2}\left( x-20 \right)^2 - \frac{1}{5^2}\left(y-5\right)^2\right] + 40 \exp \left[ - \frac{1}{500}\left( x-70 \right)^2 - \frac{1}{2^2}\left(y-2\right)^2\right] \]
+\form#549:$ x\in(0,121), y\in(0,9) $
+\form#550:$ (20,5) $
+\form#551:$ (70,2) $
+\form#552:$ z=10 $
+\form#553:$ y=\sin\left[ 1/\left(x+0.08 \right) \right] $
+\form#554:$ [0,2 \pi] $
+\form#555:$ n=50 $
+\form#556:$ n=25 $
+\form#557:$ n=100 $

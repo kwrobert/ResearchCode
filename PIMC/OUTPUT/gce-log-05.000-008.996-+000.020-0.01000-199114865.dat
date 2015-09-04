@@ -1,0 +1,115 @@
+# PIMCID: 199114865
+
+# ./pimc.e -T 5 -N 16 -n 0.02198 -t 0.01 -M 8 -C 5.4036e-01 -I aziz -X free -E 10000 -S 20 -l 7 -u 0.02 --relax -R 199114865 -D 6.709704627985579e-01 
+
+---------- Begin Simulation Parameters ----------
+
+Ensenble                	:	grand canonical
+Simulation Type         	:	PIMC
+Action Type             	:	gsf
+Number of paths         	:	1
+Interaction Potential   	:	aziz
+External Potential      	:	free
+Wavefunction Type       	:	constant
+Temperature             	:	5.00000
+Chemical Potential      	:	0.02000
+Particle Mass           	:	4.00300
+Number Time Slices      	:	20
+Imaginary Time Step     	:	0.01000
+Imaginary Time Length   	:	0.20000
+Initial Number Particles	:	16
+Initial Density         	:	0.02198
+Num. Broken World-lines 	:	0
+Container Type          	:	Prism
+Container Dimensions    	:	8.99561 x 8.99561 x 8.99561
+Container Volume        	:	727.93449
+Lookup Table            	:	1 x 1 x 1
+Initial Worm Constant   	:	1.00000
+Worm Constant           	:	0.54036
+Inital CoM Delta        	:	0.15605
+CoM Delta               	:	0.67097
+Bisection Parameter     	:	3
+Update Slices (Mbar)    	:	8
+Potential Cutoff Length 	:	7.00000
+Bin Size                	:	100
+Number EQ Steps         	:	10000
+Number Bins Stored      	:	20
+Random Number Seed      	:	139853
+Virial Window           	:	5
+
+---------- End Simulation Parameters ------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.15368
+
+center of mass               	:	0.57908	(2380/4110)
+
+bisection                    	:	0.29310	(62231/212317)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.02400	(720/29996)
+open         Level 2         	:	0.02166	(650/30006)
+open         Level 3         	:	0.01137	(689/60584)
+open                         	:	0.01707	(2059/120586)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.92172	(730/792)
+close        Level 2         	:	0.65243	(672/1030)
+close        Level 3         	:	0.33835	(674/1992)
+close                        	:	0.54431	(2076/3814)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.01948	(594/30488)
+insert       Level 2         	:	0.01067	(325/30468)
+insert       Level 3         	:	0.00348	(214/61453)
+insert                       	:	0.00926	(1133/122409)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	0.96411	(591/613)
+remove       Level 2         	:	0.54315	(321/591)
+remove       Level 3         	:	0.18231	(204/1119)
+remove                       	:	0.48041	(1116/2323)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.42242	(844/1998)
+advance head Level 2         	:	0.16934	(306/1807)
+advance head Level 3         	:	0.04695	(178/3791)
+advance head                 	:	0.17483	(1328/7596)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.44812	(812/1812)
+recede head  Level 2         	:	0.19283	(344/1784)
+recede head  Level 3         	:	0.05620	(183/3256)
+recede head                  	:	0.19542	(1339/6852)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.45932	(813/1770)
+advance tail Level 2         	:	0.18694	(335/1792)
+advance tail Level 3         	:	0.05299	(172/3246)
+advance tail                 	:	0.19389	(1320/6808)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.39719	(734/1848)
+recede tail  Level 2         	:	0.18329	(340/1855)
+recede tail  Level 3         	:	0.05279	(206/3902)
+recede tail                  	:	0.16831	(1280/7605)
+
+swap head                    	:	0.11978	(643/5368)
+
+swap tail                    	:	0.13601	(738/5426)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+Energy                       	:	            2558	            2000
+Number Particles             	:	            2558	            2000
+Diagonal Fraction            	:	            2558	            2558
+Superfluid Fraction          	:	            2558	            2000
+Worm Properties              	:	            2558	               4
+Planar Density rho           	:	            2558	            2000
+
+---------- End Estimator Data ------------------

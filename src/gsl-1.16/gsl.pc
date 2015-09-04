@@ -1,0 +1,11 @@
+prefix=/Users/Kyle/local
+exec_prefix=/Users/Kyle/local
+libdir=/Users/Kyle/local/lib
+includedir=/Users/Kyle/local/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 1.16
+Libs: -L/Users/Kyle/local/lib -lgsl ${GSL_CBLAS_LIB}  -lm 
+Cflags: -I/Users/Kyle/local/include

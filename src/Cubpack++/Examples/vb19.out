@@ -1,0 +1,6 @@
+Consider the plane as a circle and an out_circle:
+  The integral is 50.9167 with absolute error 4.82905e-05
+  Number of evaluations = 1661
+Consider the plane as given:
+  The integral is 50.9167 with absolute error 4.33663e-05
+  Number of evaluations = 3288

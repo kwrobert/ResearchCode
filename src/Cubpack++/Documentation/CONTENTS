@@ -1,0 +1,13 @@
+What you find in the current directory
+--------------------------------------
+CONTENTS       : this file
+
+COMPILERS      : overview of compilers used to test Cubpack++
+
+MACHINE_DEPEND : list of machine dependable source files
+
+userman.dvi    : copy of User Manual in dvi format
+userman.ps     : copy of User Manual in Postscript format
+
+--------
+The paper appeared in ACM Trans.\ Math.\ Software 23(10) March 1997.

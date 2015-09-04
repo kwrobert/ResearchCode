@@ -1,0 +1,613 @@
+\form#0:$8 \times 10^{6} ~\mathrm{g}/\mathrm{cm}^3$
+\form#1:$4.3 \times 10^{11} ~\mathrm{g}/\mathrm{cm}^3$
+\form#2:\begin{eqnarray*} M(A,Z)&=&(A-Z) m_n+Z (m_p+m_e)- 15.76 A-17.81 A^{2/3} \\ && -0.71 Z^2 /A^{1/3}- 94.8/A \left(A/2-Z\right)^2+E_{\mathrm{pair}} \end{eqnarray*}
+\form#3:\[ E_{\mathrm{pair}} = \pm 39/A^{3/4} \]
+\form#4:$E_{\mathrm{pair}}$
+\form#5:\[ \varepsilon_L = -1.444 Z^{2/3} e^2 n_e^{4/3} \]
+\form#6:$\mathrm{fm}^{-3}$
+\form#7:$\mathrm{fm}^{-4}$
+\form#8:\[ {\cal H}_{APR} = {\cal H}_{kin} + {\cal H}_{pot} \]
+\form#9:\[ {\cal H}_{kin} = \left\{ \frac{\hbar^2}{2 m} + \left[ p_3 + \left( 1 - x \right) p_5 \right] n e^{-p_4 n} \right\} \tau_n + \left\{ \frac{\hbar^2}{2 m} + \left[ p_3 + x p_5 \right] n e^{-p_4 n} \right\} \tau_p \]
+\form#10:\[ {\cal H}_{pot} = g_1 \left[ 1 - \left( 1 - 2 x \right)^2 \right] + g_2 \left( 1 - 2 x \right)^2 \]
+\form#11:$ g_i $
+\form#12:\[ g_{1,LDP} = -n^2 \left[ p_1 + p_2 n + p_6 n^2 + \left( p_{10} + p_{11} n \right) e^{-p_9^2 n^2} \right] \]
+\form#13:\[ g_{2,LDP} = -n^2 \left[ \frac{p_{12}}{n} + p_7 + p_8 n + p_{13} e^{-p_9^2 n^2} \right] \]
+\form#14:\[ g_{1,HDP} = g_{1,LDP} -n^2 \left[ p_{17} \left( n - p_{19} \right) + p_{21} \left( n - p_{19} \right)^2 e^{p_{18} \left( n - p_{19} \right) } \right] \]
+\form#15:\[ g_{2,HDP} = g_{2,LDP} -n^2 \left[ p_{15} \left( n - p_{20} \right) + p_{14} \left( n - p_{20} \right)^2 e^{p_{16} \left( n - p_{20} \right)} \right] \]
+\form#16:$ \nu_n$
+\form#17:$ \nu_p$
+\form#18:$ (-\mu_n+V_n)/T $
+\form#19:$ (-\mu_p+V_p)/T $
+\form#20:$ V $
+\form#21:$ -k_{F_n}^2/ 2 m^{*} $
+\form#22:$ \mathrm{fm}^{-3} $
+\form#23:$ A18 + \mathrm{UIX}^{*}+\delta v $
+\form#24:$ \delta $
+\form#25:$ x_1=x_2=0 $
+\form#26:$ Q_i=P_i/2 $
+\form#27:\begin{eqnarray*} P_1 &=& \left(\frac{1}{2} p_3-p_5 \right) e^{-p_4 n} \nonumber \\ P_2 &=& \left(\frac{1}{2} p_3+p_5 \right) e^{-p_4 n} \end{eqnarray*}
+\form#28:\begin{eqnarray*} Q_{nn}&=&\frac{1}{4} e^{-p_4 \rho} \left[ -6 p_5 - p_4 (p_3 - 2 p_5) (n_n + 2 n_p) \right] \nonumber \\ Q_{np}&=&\frac{1}{8} e^{-p_4 \rho} \left[ 4 (p_3 - 4 p_5) - 3 p_4 (p_3 - 2 p_5) (n_n + n_p)\right] \nonumber \\ Q_{pp}&=&\frac{1}{4} e^{-p_4 \rho} \left[ -6 p_5 - p_4 (p_3 - 2 p_5) (n_p + 2 n_n) \right] \end{eqnarray*}
+\form#29:$ n_n $
+\form#30:$ n_p $
+\form#31:$ n_B = n_n + n_p $
+\form#32:$ \delta \equiv (n_n-n_p)/n_B $
+\form#33:$ n_0 \approx 0.16~\mathrm{fm}^{-3} $
+\form#34:$ \epsilon \equiv (n_B-n_0)/3n_0 $
+\form#35:$ n_n - n_p $
+\form#36:$ \epsilon =\delta = 0 $
+\form#37:\[ E(n_B,\delta) = -B + \frac{\tilde{K}}{2!} {\epsilon}^2 + \frac{Q}{3!} {\epsilon}^3 + \delta^2 \left(S + L \epsilon + \frac{K_{\mathrm{sym}}}{2!} {\epsilon}^2 + \frac{Q_{\mathrm{sym}}}{3!} \epsilon^3 \right) + E_4(n_B,\delta) + {\cal O}(\delta^6) \qquad \left(\mathrm{Eq.}~1\right) \]
+\form#38:$ E_4 $
+\form#39:\[ E_4(n_B,\delta) = \delta^4 \left(S_4 + L_4 \epsilon + \frac{K_4}{2!} {\epsilon}^2 + \frac{Q_4}{3!} \epsilon^3 \right) \qquad \left(\mathrm{Eq.}~2\right) \]
+\form#40:$ \varepsilon(n_B,\delta) = n_B E(n_B,\delta) $
+\form#41:$ \mu_i \equiv (\partial \varepsilon) / (\partial n_i ) $
+\form#42:$ P = -\varepsilon + \mu_n n_n + \mu_p n_p $
+\form#43:$ B $
+\form#44:$ \delta = 0 $
+\form#45:$ \chi = -1/V (dV/dP) = 1/n (dP/dn)^{-1} $
+\form#46:$ \epsilon $
+\form#47:$ K=9/(n \chi) $
+\form#48:$ K $
+\form#49:\[ K(n_B,\delta) \equiv 9 \left( \frac{\partial P}{\partial n_B} \right) = 9 n_B \left(\frac{\partial^2 \varepsilon} {\partial n_B^2}\right) \]
+\form#50:$ (n_B=n_0,\delta=0) $
+\form#51:$ \tilde{K} $
+\form#52:\[ \tilde{K}(n_B,\delta) = 9 n_B^2 \left(\frac{\partial^2 E}{\partial n_B^2}\right) = K(n_B,\delta) - \frac{1}{n_B} 18 P(n_B,\delta) \]
+\form#53:$ K \equiv K(n_B=n_0,\delta=0) $
+\form#54:$ K = \tilde{K} $
+\form#55:$ S(n_B,\delta), $
+\form#56:\[ S(n_B,\delta) \equiv \frac{1}{2 n_B}\frac{\partial^2 \varepsilon} {\partial \delta^2} \]
+\form#57:$ S $
+\form#58:$ S(n_0,0) $
+\form#59:\[ \left(\frac{\partial \varepsilon}{\partial \delta}\right)_{n_B} = \frac{\partial \varepsilon}{\partial n_n} \left(\frac{\partial n_n}{\partial \delta}\right)_{n_B} + \frac{\partial \varepsilon}{\partial n_p} \left(\frac{\partial n_p}{\partial \delta}\right)_{n_B} = \frac{n_B}{2} \left(\mu_n - \mu_p \right) \]
+\form#60:\[ S(n_B,\delta) = \frac{1}{4} \frac{\partial}{\partial \delta} \left(\mu_n - \mu_p\right) \]
+\form#61:$ n_B $
+\form#62:$ x_p = (1-\delta)/2 $
+\form#63:$ S(n_B,\delta) $
+\form#64:$ \delta=0 $
+\form#65:$ (n_B=n_0, \delta=0) $
+\form#66:\[ \tilde{S}(n_B) = E(n_B,\delta=1)-E(n_B,\delta=0) \]
+\form#67:$ S(n_B,\delta=0) $
+\form#68:$ \tilde{S}(n_B) $
+\form#69:$ {\cal O}(\delta^4) $
+\form#70:$ \mu_n - \mu_p $
+\form#71:\[ S(n_B) = \tilde{S}(n_B) = \frac{1}{4} \frac{(\mu_n-\mu_p)}{\delta} \, . \]
+\form#72:\[ S(n_B,\delta,T) = \frac{1}{4} \frac{\partial}{\partial \delta} \left[\mu_n(n_B,\delta,T) - \mu_p(n_B,\delta,T)\right] \, , \]
+\form#73:\[ \tilde{S}(n_B,T) = F(n_B,\delta=1,T)-F(n_B,\delta=0,T) \, . \]
+\form#74:$ L $
+\form#75:\[ L(n_B,\delta) \equiv 3 n_B \frac{\partial S(n_B,\delta)} {\partial n_B} = 3 n_B \frac{\partial}{\partial n_B} \left[ \frac{1}{2 n_B} \frac{\partial^2 \varepsilon}{\partial \delta^2} \right] \]
+\form#76:\[ L(n_B,\delta) = \frac{3 n_B}{4} \frac{\partial}{\partial n_B} \frac{\partial}{\partial \delta} \left(\mu_n - \mu_p\right) \]
+\form#77:\[ \left(\frac{\partial \varepsilon}{\partial n_B}\right)_{\delta} = \frac{\partial \varepsilon}{\partial n_n} \left(\frac{\partial n_n}{\partial n_B}\right)_{\delta} + \frac{\partial \varepsilon}{\partial n_p} \left(\frac{\partial n_p}{\partial n_B}\right)_{\delta} = \frac{1}{2} \left(\mu_n + \mu_p \right) \]
+\form#78:\begin{eqnarray*} L(n_B,\delta) &=& 3 n_B \left[\frac{-1}{2 n_B^2} \frac{\partial^2 \varepsilon}{\partial \delta^2} + \frac{1}{4 n_B} \frac{\partial^2}{\partial \delta^2} \left(\mu_n + \mu_p\right)\right] \\ &=& \frac{3}{4}\frac{\partial^2}{\partial \delta^2} \left(\mu_n + \mu_p\right) - 3 S(n_B,\delta) \, . \end{eqnarray*}
+\form#79:\[ Q(n_B,\delta) = 27 n_B^3 \frac{\partial^3}{\partial n_B^3} \left(\frac{\varepsilon}{n_B}\right) = 27 n_B^3 \frac{\partial^2}{\partial n_B^2} \left(\frac{P}{n_B^2}\right) \]
+\form#80:\[ K_{\mathrm{sym}}(n_B,\delta) = 9 n_B^2 \frac{\partial^2}{\partial n_B^2} S(n_B,\delta) \]
+\form#81:\[ Q_{\mathrm{sym}}(n_B,\delta) = 27 n_B^3 \frac{\partial^3}{\partial n_B^3} S(n_B,\delta) \]
+\form#82:$ \epsilon^3 $
+\form#83:$ P=0 $
+\form#84:$ \delta^2 $
+\form#85:\[ n_{B,\mathrm{sat}} = n_0 \left[ 1 - \frac{3 L \delta^2}{K} \right] \]
+\form#86:\[ K(n_B=n_{B,\mathrm{sat}},\delta)= K+\delta^2 \left( K_{\mathrm{sym}}-6 L- \frac{L Q}{K} \right) + {\cal O}\left(\delta^4\right) \]
+\form#87:$ K_{\tau} $
+\form#88:$ n_B=n_{B,\mathrm{sat}} $
+\form#89:\[ \tilde{K}_{\tau} \equiv \frac{1}{2} \frac{\partial^2 K(n_B,\delta)} {\partial \delta^2} \]
+\form#90:$ K_{\mathrm{sym}} + 6 L $
+\form#91:$ n_B = n_0 $
+\form#92:$ S_4(n_B,\delta) $
+\form#93:\[ S_4(n_B,\delta) \equiv \frac{1}{24 n_B}\frac{\partial^4 \varepsilon} {\partial \delta^4} \]
+\form#94:\[ \eta(n_B) \equiv \frac{E(n_B,1)-E(n_B,1/2)} {3 \left[E(n_B,1/2)-E(n_B,0)\right]} \]
+\form#95:$ \tilde{S} $
+\form#96:$ S_4 $
+\form#97:\[ \eta(n_B) = \frac{5 \tilde{S}(n_B) - S(n_B,0)} {\tilde{S}(n_B) + 3 S(n_B,0)} = \frac{5 S_4(n_B,0) + 4 S(n_B,0)} {S_4(n_B,0) + 4 S(n_B,0)} \]
+\form#98:\[ 4 S(n_B) \left[ \frac{1-\eta(n_B)}{\eta(n_B)-5} \right] \, . \]
+\form#99:\[ \eta(n_0) = \frac{4 S + 5 S_4}{4 S + S_4} \]
+\form#100:$ Q $
+\form#101:$ \eta $
+\form#102:$ L_4 $
+\form#103:$ \eta^{\prime} $
+\form#104:\[ \eta^{\prime} = \frac{16 \left( L_4 S - L S_4 \right)} {3 n_B \left(4 S +S_4 \right)^2} \]
+\form#105:\[ \eta^{\prime} = \frac{\left(\eta -5\right)}{48 n_B S } \left[ L_4 \left(\eta -5\right) + 4 L \left(\eta -1\right)\right] \]
+\form#106:$ \mathrm{fm}^{-1} $
+\form#107:$ K (n_B,\delta) = 9 n_B \partial^2 \varepsilon /(\partial n_B^2) = 9 \partial P / (\partial n_B) $
+\form#108:$ K(n_0,0) $
+\form#109:\[ \left(\frac{1}{2 n_B}\frac{d^2 \varepsilon}{d \delta^2} \right) = \frac{1}{4} \frac{\partial}{\partial \delta} \left(\mu_n - \mu_p \right) \]
+\form#110:$ 27 n^3 d^3 (\varepsilon/n)/(d n^3) = 27 n^3 d^2 (P/n^2) / (d n^2) $
+\form#111:\[ \frac{1}{m^{*}_n} = (1+\delta) \frac{1}{m^{*}_s} - \delta \frac{1}{m^{*}_v} \]
+\form#112:\[ \frac{1}{m^{*}_p} = (1-\delta) \frac{1}{m^{*}_s} + \delta \frac{1}{m^{*}_v} \]
+\form#113:\[ \frac{1}{m^{*}_s} = \frac{1}{2} \frac{1}{m^{*}_n}+ \frac{1}{2} \frac{1}{m^{*}_p} \]
+\form#114:\[ \frac{1}{m^{*}_v} = \frac{\delta-1}{2 \delta} \frac{1}{m^{*}_n}+ \frac{1+\delta}{2 \delta} \frac{1}{m^{*}_p} \]
+\form#115:$ 10^{-3} $
+\form#116:\[ {\cal H}_{\mathrm{grad}} = \frac{1}{2} \sum_{i=n,p} \sum_{j=n,p} Q_{ij} \vec{\nabla} n_i \cdot \vec{\nabla} n_j \]
+\form#117:\begin{eqnarray*} {\cal H}_{\mathrm{grad}}&=&-\frac{1}{4} \left(2 P_1 + P_{1;f}-P_{2;f}\right) \nonumber \\ && +\frac{1}{2} \left( Q_1+Q_2 \right) \left(n_n \nabla^2 n_n+n_p \nabla^2 n_p\right) \nonumber \\ && + \frac{1}{4}\left( Q_1-Q_2 \right) \left[\left(\nabla n_n\right)^2+\left(\nabla n_p\right)^2 \right] \nonumber \\ && + \frac{1}{2} \frac{d Q_2}{d n} \left( n_n \nabla n_n + n_p \nabla n_p \right) \cdot \nabla n \end{eqnarray*}
+\form#118:\begin{eqnarray*} {\cal H}_{\mathrm{grad}}&=&\frac{1}{2}\left(\nabla n\right)^2 \left[ \frac{3}{2} P_1+n \frac{d P_1}{d n}\right] \nonumber \\ && - \frac{3}{4} \left[ \left( \nabla n_n\right)^2 + \left( \nabla n_p \right)^2 \right] \nonumber \\ && -\frac{1}{2} \left[ \right] \cdot \nabla n \frac{d Q_1}{d n} \nonumber \\ && - \frac{1}{4} \left( \nabla n\right)^2 P_2 - \frac{1}{4} \left[ \left( \nabla n_n\right)^2 + \left( \nabla n_p \right)^2 \right] Q_2 \end{eqnarray*}
+\form#119:\begin{eqnarray*} {\cal H}_{\mathrm{grad}}&=&\frac{1}{4} \left( \nabla n\right)^2 \left[3 P_1 + 2 n \frac{d P_1}{d n}-P_2\right] \nonumber \\ && - \frac{1}{4} \left( 3 Q_1+Q_2 \right) \left[ \left( \nabla n_n\right)^2 + \left( \nabla n_p \right)^2 \right] \nonumber \\ && - \frac{1}{2} \frac{d Q_1}{d n} \left[ n_n \nabla n_n + n_p \nabla n_p \right] \cdot \nabla n \end{eqnarray*}
+\form#120:\begin{eqnarray*} {\cal H}_{\mathrm{grad}}&=&\frac{1}{4} \left( \nabla n\right)^2 \left[3 P_1 + 2 n \frac{d P_1}{d n}-P_2\right] \nonumber \\ && - \frac{1}{4} \left( 3 Q_1+Q_2 \right) \left[ \left( \nabla n_n\right)^2 + \left( \nabla n_p \right)^2 \right] \nonumber \\ && - \frac{1}{2} \frac{d Q_1}{d n} \left[ n_n \left( \nabla n_n \right)^2 + n_p \left( \nabla n_p \right)^2 + n \nabla n_n \cdot \nabla n_p \right] \end{eqnarray*}
+\form#121:\begin{eqnarray*} P_i &=& \frac{1}{4} t_i \left(1+\frac{1}{2} x_i \right) \nonumber \\ Q_i &=& \frac{1}{4} t_i \left(\frac{1}{2} + x_i \right) \, . \end{eqnarray*}
+\form#122:$ i=1,2 $
+\form#123:$ t_1 $
+\form#124:$ t_2 $
+\form#125:$ Q_{ij} $
+\form#126:$ \phi $
+\form#127:$ A_{\omega} $
+\form#128:$ A_{\rho} $
+\form#129:$ \Gamma_{\sigma}(\rho_{\mathrm{sat}}) $
+\form#130:$ \Gamma_{\omega}(\rho_{\mathrm{sat}}) $
+\form#131:$ \Gamma_{\rho}(\rho_{\mathrm{sat}}) $
+\form#132:$ a_{\sigma} $
+\form#133:$ a_{\omega} $
+\form#134:$ a_{\rho} $
+\form#135:$ b_{\sigma} $
+\form#136:$ b_{\omega} $
+\form#137:$ c_{\sigma} $
+\form#138:$ c_{\omega} $
+\form#139:$ d_{\sigma} $
+\form#140:$ d_{\omega} $
+\form#141:$ \mu_n, \mu_p, \phi, A_{\omega}, A_{\rho} $
+\form#142:\[ E/A = \left( 3 \pi^2 n_0/2 \right)^{2/3} \frac{1}{2 M} \left\{ \frac{3}{5} \left[ x^{5/3} + (1-x)^5/3 \right] (2 u)^{2/3}- [(2 \alpha - 4 \alpha_L) x (1-x)+\alpha_L] + \left[ (2 \eta - 4 \eta_L) x (1-x) + \eta_L \right] u^{\gamma} \right\} \]
+\form#143:$ \alpha, \eta, $
+\form#144:$ \gamma $
+\form#145:$ 2/5 $
+\form#146:$ 1/5 $
+\form#147:$ \mathrm{fm}^{2} $
+\form#148:\[ e_{\tau} = \frac{\delta \varepsilon}{\delta f_{\tau}} \]
+\form#149:\[ \frac{m^{*}}{m} = \left( \frac{m}{k} \frac{d e_{\tau}}{d k} \right)^{-1}_{k=k_F} \]
+\form#150:$\tau_n+\tau_p$
+\form#151:\[ \tau_i = \frac{2}{(2 \pi)^3} \int d^3 k~ \left(\frac{k^2}{2 m}\right)f_i(k,T) \]
+\form#152:\[ \rho_i = \frac{2}{(2 \pi)^3} \int d^3 k~f_i(k,T) \]
+\form#153:\[ V(\rho,\delta) = \frac{Au}{\rho_0} \rho_n \rho_p + \frac{A_l}{2 \rho_0} \left(\rho_n^2+\rho_p^2\right)+ \frac{B}{\sigma+1} \frac{\rho^{\sigma+1}}{\rho_0^{\sigma}} \left(1-x \delta^2\right)+V_{mom}(\rho,\delta) \]
+\form#154:$\delta=1-2 \rho_p/(\rho_n+\rho_p)$
+\form#155:\[ V_{mom}(\rho,\delta)= \frac{1}{\rho_0} \sum_{\tau,\tau^{\prime}} C_{\tau,\tau^{\prime}} \int \int d^3 k d^3 k^{\prime} \frac{f_{\tau}(\vec{k}) f_{{\tau}^{\prime}} (\vec{k}^{\prime})} {1-(\vec{k}-\vec{k}^{\prime})^2/\Lambda^2} \]
+\form#156:$C_{1/2,1/2}=C_{-1/2,-1/2}=C_{\ell}$
+\form#157:$C_{1/2,-1/2}=C_{-1/2,1/2}=C_{u}$
+\form#158:\[ V_{mom}(\rho,\delta)= \frac{1}{\rho_0}\left[ C_{\ell} \left( \rho_n g_n + \rho_p g_p \right)+ C_u \left( \rho_n g_p + \rho_p g_n \right) \right] \]
+\form#159:\[ g_i=\frac{\Lambda^2}{\pi^2}\left[ k_{F,i}-\Lambda \mathrm{tan}^{-1} \left(k_{F,i}/\Lambda\right) \right] \]
+\form#160:\[ V(\rho,\delta) = V_A+V_B+V_C \]
+\form#161:\[ V_A = \frac{2 A}{3 \rho_0} \left[ \left(1+\frac{x_0}{2}\right)\rho^2- \left(\frac{1}{2}+x_0\right)\left(\rho_n^2+\rho_p^2\right)\right] \]
+\form#162:\[ V_B=\frac{4 B}{3 \rho_0^{\sigma}} \frac{T}{1+4 B^{\prime} T / \left(3 \rho_0^{\sigma-1} \rho^2\right)} \]
+\form#163:\[ T = \rho^{\sigma-1} \left[ \left( 1+\frac{x_3}{2} \right) \rho^2 - \left(\frac{1}{2}+x_3\right)\left(\rho_n^2+\rho_p^2\right)\right] \]
+\form#164:$V_C$
+\form#165:\[ V_C=\sum_{i=1}^{i_{\mathrm{max}}} \frac{4}{5} \left(C_{i}+2 z_i\right) \rho (g_{n,i}+g_{p,i})+\frac{2}{5}\left(C_i -8 z_i\right) (\rho_n g_{n,i} + \rho_p g_{p,i}) \]
+\form#166:\[ g_{\tau,i} = \frac{2}{(2 \pi)^3} \int d^3 k f_{\tau}(k,T) g_i(k) \]
+\form#167:\[ g_i(k) = \left(1+\frac{k^2}{\Lambda_i^2}\right)^{-1} \]
+\form#168:\[ g_i(k) = 1-\frac{k^2}{\Lambda_i^2} \]
+\form#169:$\Lambda_1$
+\form#170:\[ {\cal L} = {\cal L}_{\mathrm{Dirac}} + {\cal L}_{\sigma} + {\cal L}_{\omega} + {\cal L}_{\rho} + {\cal L}_{\mathrm{int}} \, . \]
+\form#171:\[ {\cal L}_{\mathrm{Dirac}} = \bar{\Psi}_i \left[ i {{\partial}\!\!\!{\slash}} - g_{\omega} {{\omega}\!\!\!{\slash}} - \frac{g_{\rho}}{2} {{\vec{\rho}}\!\!\!{\slash}} \vec{\tau} - M_i + g_{\sigma} \sigma - e q_i A\!\!\!{\slash} \right] \Psi_i \]
+\form#172:$ \Psi $
+\form#173:$ \sigma, \omega $
+\form#174:$ \rho $
+\form#175:$ m_{\sigma}, m_{\omega} $
+\form#176:$ m_{\rho} $
+\form#177:$ g_{\sigma}, g_{\omega} $
+\form#178:$ g_{\rho} $
+\form#179:\[ c_{\sigma} = g_{\sigma}/m_{\sigma} \quad c_{\omega} = g_{\omega}/m_{\omega} \quad \mathrm{and} \quad c_{\rho} = g_{\rho}/m_{\rho} \]
+\form#180:$ M_i $
+\form#181:$ q_i $
+\form#182:$ A_{\mu} $
+\form#183:$ \sigma $
+\form#184:\[ {\cal L}_{\sigma} = {\textstyle \frac{1}{2}} \left( \partial_{\mu} \sigma \right)^2 - {\textstyle \frac{1}{2}} m^2_{\sigma} \sigma^2 - \frac{b M}{3} \left( g_{\sigma} \sigma\right)^3 - \frac{c}{4} \left( g_{\sigma} \sigma\right)^4 \, . \]
+\form#185:$ m_{\sigma} $
+\form#186:$ b $
+\form#187:$ c $
+\form#188:$ M $
+\form#189:$ \kappa $
+\form#190:$ \lambda $
+\form#191:\[ \kappa=2 M b \quad \lambda=6 c; \]
+\form#192:$ \omega $
+\form#193:\[ {\cal L}_{\omega} = - {\textstyle \frac{1}{4}} f_{\mu \nu} f^{\mu \nu} + {\textstyle \frac{1}{2}} m^2_{\omega}\omega^{\mu}\omega_{\mu} + \frac{\zeta}{24} g_{\omega}^4 \left(\omega^\mu \omega_\mu\right)^2 \]
+\form#194:$ m_{\omega} $
+\form#195:\[ {\cal L}_{\rho} = - {\textstyle \frac{1}{4}} \vec{B}_{\mu \nu} \cdot \vec{B}^{\mu \nu} + {\textstyle \frac{1}{2}} m^2_{\rho} \vec{\rho}^{~\mu} \cdot \vec{\rho}_{~\mu} + \frac{\xi}{24} g_{\rho}^4 \left(\vec{\rho}^{~\mu}\right) \cdot \vec{\rho}_{~\mu} \]
+\form#196:\[ {\cal L}_{\mathrm{int}} = g_{\rho}^2 f (\sigma, \omega) \vec{\rho}^{~\mu} \cdot \vec{\rho}_{~\mu} \nonumber \\ \]
+\form#197:$ f $
+\form#198:$ g_r^2 \rho^2 $
+\form#199:$ f(\sigma,\omega) = b_1 \omega^2 + b_2 \omega^4 + b_3 \omega^6 + a_1 \sigma + a_2 \sigma^2 + a_3 \sigma^3 + a_4 \sigma^4 + a_5 \sigma^5 + a_6 \sigma^6 $
+\form#200:$ f(\sigma,\omega) = \lambda_4 g_s^2 \sigma^2 + \lambda_v g_w^2 \omega^2 $
+\form#201:$ b_1=\lambda_v g_w^2 $
+\form#202:$ a_2=\lambda_4 g_s^2 $
+\form#203:$ \mathrm{fm} $
+\form#204:$ a_i $
+\form#205:$ \mathrm{fm}^{(i-2)} $
+\form#206:$ b_j $
+\form#207:$ \mathrm{fm}^{(2j-2)} $
+\form#208:\[ 0 = m_{\sigma}^2 \sigma - g_{\sigma} \left( n_{s n} + n_{s p} \right) + b M g_{\sigma}^3 \sigma^2 + c g_{\sigma}^4 \sigma^3 - g_{\rho}^2 \rho^2 \frac{\partial f}{\partial \sigma} \]
+\form#209:\[ 0 = m_{\omega}^2 \omega - g_{\omega} \left(n_n+n_p\right) + \frac{\zeta}{6} g_{\omega}^4 \omega^3 + g_{\rho}^2 \rho^2 \frac{\partial f}{\partial \omega} \]
+\form#210:\[ 0 = m_{\rho}^2 \rho + \frac{1}{2} g_{\rho} \left(n_n-n_p\right) + 2 g_{\rho}^2 \rho f + \frac{\xi}{6} g_{\rho}^4 \rho^3 \]
+\form#211:\[ U(\sigma)=\frac{1}{2} m_\sigma^2\sigma^2+\frac{b M}{3}(g_\sigma\sigma)^3 +\frac{c}{4}(g_\sigma\sigma)^4\;, \]
+\form#212:\[ \frac{E}{A} = \frac{1}{n_0} \left[U(\sigma_0)+ \frac{1}{2} m_\omega\omega_0^2+ \frac{\zeta}{8}(g_\omega\omega_0)^4+\frac{2}{\pi^2} \int\limits_0^{k_F} dk k^2\sqrt{k^2+M^{*2}} \right] \]
+\form#213:$ M^{*}_i = M_i - g_{\sigma}\sigma_0 $
+\form#214:\[ K=9\frac{g_\omega^2}{m_\omega^2}n_0+3\frac{k_F^2}{E_F^*} -9n_0\frac{M^{*2}}{E_F^{*2}}\left[\left(\frac{1}{g_\sigma^2} \frac{\partial^2}{\partial\sigma_0^2}+\frac{3}{g_\sigma M^*} \frac{\partial}{\partial\sigma_0}\right) U(\sigma_0)-3\frac{n_0}{E_F^*}\right]^{-1}\;. \]
+\form#215:\[ E_{sym} = \frac{k_F^2}{6 E_F^{*}} + \frac{ n } {8 \left(g_{\rho}^2/m_{\rho}^2 + 2 f (\sigma_0, \omega_0) \right)} \, . \]
+\form#216:$ 0 $
+\form#217:$ f=0 $
+\form#218:$ 10^4 $
+\form#219:$ \mu_n,\mu_p,\sigma,\omega,rho $
+\form#220:\[ \frac{1}{2 c_s^2 M^2}, \frac{1}{2 c_v^2 M^2} \frac{1}{8 c_{\rho}^2 M^2},~\mathrm{and}~\frac{ \bar{a}_{ijk} M^{i+2 j+2 k-4}}{2^{2 k}} \]
+\form#221:\[ \frac{m_s^2}{2 g_s^2 M^2}, \frac{m_v^2}{2 g_v^2 M^2} \frac{m_{\rho}^2}{8 g_{\rho}^2 M^2},~\mathrm{and}~\frac{ a_{ijk} M^{i+2 j+2 k-4}}{g_s^i g_v^{2 j} g_{\rho}^{2 k} 2^{2 k}} \]
+\form#222:$ a_{ijk} $
+\form#223:\begin{eqnarray*} \frac{b M}{3} g_{\sigma}^3 \sigma^3 &=& a_{300}~\sigma^3 \nonumber \\ \frac{c}{4} g_{\sigma}^4 \sigma^4 &=& a_{400}~\sigma^4 \nonumber \\ \frac{\zeta}{24} g_{\omega}^4 \omega^4 &=& a_{020}~\omega^4 \nonumber \\ \frac{\xi}{24} g_{\rho}^4 \rho^4 &=& a_{002}~\rho^4 \nonumber \\ b_1 g_{\rho}^2 \omega^2 \rho^2 &=& a_{011}~\omega^2 \rho^2 \nonumber \\ b_2 g_{\rho}^2 \omega^4 \rho^2 &=& a_{021}~\omega^4 \rho^2 \nonumber \\ b_3 g_{\rho}^2 \omega^6 \rho^2 &=& a_{031}~\omega^6 \rho^2 \nonumber \\ a_1 g_{\rho}^2 \sigma^1 \rho^2 &=& a_{101}~\sigma^1 \rho^2 \nonumber \\ a_2 g_{\rho}^2 \sigma^2 \rho^2 &=& a_{201}~\sigma^2 \rho^2 \nonumber \\ a_3 g_{\rho}^2 \sigma^3 \rho^2 &=& a_{301}~\sigma^3 \rho^2 \nonumber \\ a_4 g_{\rho}^2 \sigma^4 \rho^2 &=& a_{401}~\sigma^4 \rho^2 \nonumber \\ a_5 g_{\rho}^2 \sigma^5 \rho^2 &=& a_{501}~\sigma^5 \rho^2 \nonumber \\ a_6 g_{\rho}^2 \sigma^6 \rho^2 &=& a_{601}~\sigma^6 \rho^2 \nonumber \end{eqnarray*}
+\form#224:\[ \frac{\bar{\kappa} g_s^3 }{2} = \frac{\kappa}{2} = b M g_s^3 \qquad \mathrm{and} \qquad \frac{\bar{\lambda} g_s^4}{6} = \frac{\lambda}{6} = c g_s^4 \]
+\form#225:\begin{eqnarray*} &\frac{m_s^2}{2 g_s^2 M^2}, \frac{m_v^2}{2 g_v^2 M^2} \frac{m_{\rho}^2}{8 g_{\rho}^2 M^2},\frac{b}{3}, \frac{c}{4} & \nonumber \\ &\frac{\zeta}{24}, \frac{\xi}{384}, \frac{b_1}{4 g_{\omega}^2}, \frac{b_2 M^2}{4 g_{\omega}^4}, \frac{b_3 M^4}{4 g_{\omega}^6}, \frac{a_1}{4 g_{\sigma} M},& \nonumber \\ &\frac{a_2}{4 g_{\sigma}^2}, \frac{a_3 M}{4 g_{\sigma}^3}, \frac{a_4 M^2}{4 g_{\sigma}^4}, \frac{a_5 M^3}{4 g_{\sigma}^5},~\mathrm{and}~\frac{a_6 M^4} {4 g_{\sigma}^6}\, .& \end{eqnarray*}
+\form#226:$ \bar{b} $
+\form#227:$ \bar{c} $
+\form#228:$ m_{\delta}=980 $
+\form#229:\[ {\cal L} = {\cal L}_{Dirac} + {\cal L}_{\sigma} + {\cal L}_{\omega} + {\cal L}_{\rho} + {\cal L}_{\delta} \]
+\form#230:\begin{eqnarray*} {\cal L}_{Dirac} &=& \bar{\Psi} \left[ i {{\partial}\!\!\!{\slash}} - g_{\omega} {{\omega}\!\!\!{\slash}} - \frac{g_{\rho}}{2} {{\vec{\rho}}\!\!\!{\slash}}~ \vec{\tau} - M + g_{\sigma} \sigma - \frac{e}{2} \left( 1 + \tau_3 \right) A_{\mu} \right] \Psi \nonumber \\ {\cal L}_{\sigma} &=& {\textstyle \frac{1}{2}} \left( \partial_{\mu} \sigma \right)^2 - {\textstyle \frac{1}{2}} m^2_{\sigma} \sigma^2 - \frac{b M}{3} \left( g_{\sigma} \sigma\right)^3 - \frac{c}{4} \left( g_{\sigma} \sigma\right)^4 \nonumber \\ {\cal L}_{\omega} &=& - {\textstyle \frac{1}{4}} f_{\mu \nu} f^{\mu \nu} + {\textstyle \frac{1}{2}} m^2_{\omega}\omega^{\mu}\omega_{\mu} + \frac{\zeta}{24} g_{\omega}^4 \left(\omega^\mu \omega_\mu\right)^2 \nonumber \\ {\cal L}_{\rho} &=& - {\textstyle \frac{1}{4}} \vec{B}_{\mu \nu} \cdot \vec{B}^{\mu \nu} + {\textstyle \frac{1}{2}} m^2_{\rho} \vec{\rho}^{~\mu} \cdot \vec{\rho}_{~\mu} + \frac{\xi}{24} g_{\rho}^4 \left(\vec{\rho}^{~\mu}\right) \cdot \vec{\rho}_{~\mu} + g_{\rho}^2 f (\sigma, \omega) \vec{\rho}^{~\mu} \cdot \vec{\rho}_{~\mu} \nonumber \\ \end{eqnarray*}
+\form#231:\[ {\cal L}_{\delta} = \bar{\Psi} \left( g_{\delta} \vec{\delta} \cdot \vec{\tau} \right) \Psi + \frac{1}{2} (\partial_{\mu} \vec{\delta})^2 - \frac{1}{2} m_{\delta}^2 \vec{\delta}^{~2} \]
+\form#232:\[ m_{\delta}^2 \delta = g_{\delta} (n_{s,p} - n_{s,n}) \]
+\form#233:\[ \epsilon = n_n m_n + n_p m_p + n \left\{ eoa+\frac{comp}{18}(n/n0-1)^2+ \frac{kprime}{162}(n/n0-1)^3+ \frac{kpp}{1944}(n/n0-1)^4+(1- 2 x)^2 \left[a \left(\frac{n}{n0}\right)^{2/3}+ b \left(\frac{n}{n0}\right)^{\gamma} \right] \right\} \]
+\form#234:$ a+b $
+\form#235:$ 17~mathrm{MeV}~/(\hbar c) $
+\form#236:$ 13~mathrm{MeV}~/(\hbar c) $
+\form#237:$ 10^{6} $
+\form#238:$ \partial \mu_B / \partial n_B $
+\form#239:\[ {\cal H} = {\cal H}_{k1} + {\cal H}_{k2} + {\cal H}_{k3} + {\cal H}_{p1} + {\cal H}_{p2} + {\cal H}_{p3} + {\cal H}_{g1} + {\cal H}_{g2} \]
+\form#240:\[ {\cal H}_{k1} = \frac{\tau_n}{2 m_n} + \frac{\tau_p}{2 m_p} \]
+\form#241:\[ {\cal H}_{k2} = n \left(\tau_n + \tau_p \right) \left[ \frac{t_1}{4} \left( 1 + \frac{x_1}{2} \right) + \frac{t_2}{4} \left( 1 + \frac{x_2}{2} \right) \right] \]
+\form#242:\[ {\cal H}_{k3} = \left( \tau_n n_n + \tau_p n_p \right) \left[ \frac{t_2}{4} \left( \frac{1}{2} + x_2 \right) - \frac{t_1}{4} \left( \frac{1}{2} + x_1 \right) \right] \]
+\form#243:$ \tau_i $
+\form#244:$ i $
+\form#245:\[ {\cal H}_{p1} = \frac{t_0}{2} \left[ \left( 1 + \frac{x_0}{2} \right) n^2 - \left( {\textstyle \frac{1}{2}} + x_0 \right) \left( n_n^2 + n_p^2 \right) \right] \]
+\form#246:\[ {\cal H}_{p2} = \frac{a t_3}{6} \left[ \left( 1 + \frac{x_3}{2} \right) n^{\alpha} n_n n_p + 2^{\alpha-2} \left(1 - x_3\right) \left(n_n^{\alpha+2} + n_p^{\alpha+2}\right) \right] \]
+\form#247:\[ {\cal H}_{p3} = \frac{b t_3}{12} \left[ \left(1 + \frac{x_3}{2} \right) n^{\alpha+2} - \left(\frac{1}{2} + x_3 \right) n^{\alpha} \left( n_n^2+n_p^2 \right) \right] \]
+\form#248:\[ {\cal H}_{g1} = \frac{3}{32} \left[ t_1 \left(1 - x_1 \right) - t_2 \left(1 + x_2 \right) \right] \left[ \left( \nabla n_n\right)^2 + \left( \nabla n_p \right)^2 \right] \]
+\form#249:\[ {\cal H}_{g2} = \frac{1}{8} \left[ 3 t_1 \left( 1 + \frac{x_1}{2} \right) - t_2 \left(1 + \frac{x_2}{2} \right) \right] \nabla n_n \nabla n_p \]
+\form#250:$ a=0, b=1 $
+\form#251:$a=1, b=0$
+\form#252:\[ {\cal H}_{J} = -\frac{W_0}{2} \left( n_n \vec{\nabla} \cdot \vec{J}_n + n_p \vec{\nabla} \cdot \vec{J}_p + n \vec{\nabla} \cdot \vec{J} \right) + \frac{t_1}{16} \left(\vec{J}_n^2 + \vec{J}_p^2 - x_1 \vec{J}^2\right) - \frac{t_2}{16} \left(\vec{J}_n^2 + \vec{J}_p^2 + x_2 \vec{J}^2\right) \]
+\form#253:$ \vec{J}^2 $
+\form#254:\[ {\cal H}_{J} = - b_4 n \vec{\nabla} \cdot \vec{J} - b_4^{\prime} n_n \vec{\nabla} \cdot \vec{J}_n - b_4^{\prime} n_p \vec{\nabla} \cdot \vec{J}_p \]
+\form#255:$ b_4 = b_4^{\prime} = W_0/2 $
+\form#256:$ b_4 = b_4^{\prime} = W_0/2 = 61.5~\mathrm{MeV} $
+\form#257:\[ t_3^{\prime} = \left(a + b\right) t_3 \, , \]
+\form#258:\[ C = \frac{3 }{10 m} \left( \frac{3 \pi^2 }{2} \right)^{2/3} \, , \]
+\form#259:\[ \beta = \frac{M}{2} \left[ \frac{1}{4} \left( 3 t_1 + 5 t_2 \right) \, . + t_2 x_2 \right] \\ \]
+\form#260:$\hbar c$
+\form#261:$x_i$
+\form#262:$\alpha$
+\form#263:$t_i$
+\form#264:$t_0$
+\form#265:$\mathrm{MeV}$
+\form#266:$\mathrm{fm}^3$
+\form#267:$t_1$
+\form#268:$\mathrm{fm}^5$
+\form#269:$t_2$
+\form#270:$t_3$
+\form#271:$\mathrm{fm}^{3(1+\alpha)}$
+\form#272:$\mathrm{fm}^2$
+\form#273:$\mathrm{fm}^4$
+\form#274:$\mathrm{fm}^{2+3 \alpha}$
+\form#275:\[ \frac{E}{A} = C n_B^{2/3} \left( 1 + \beta n_B \right) + \frac{3 t_0}{8} n_B + \frac{t_3^{\prime}}{16} n_B^{\alpha+1} \]
+\form#276:\[ M^{*}/M = \left(1+ \beta n_B \right)^{-1} \\ \]
+\form#277:\[ K = 10 C n_B^{2/3} + \frac{27}{4} t_0 n_B + 40 C \beta n_B^{5/3} + \frac{9 t_3^{\prime}}{16} \alpha \left( \alpha+1 \right) n_B^{1 + \alpha} + \frac{9 t_3^{\prime}}{8} \left( \alpha+1 \right) n_B^{1 + \alpha} \]
+\form#278:\[ E_{sym} = \frac{5}{9} C n^{2/3} + \frac{10 C m}{3} \left[ \frac{t_2}{6} \left(1 + \frac{5}{4} x_2 \right) - \frac{1}{8} t_1 x_1 \right] n^{5/3} - \frac{t_3^{\prime}}{24} \left({\textstyle \frac{1}{2}} + x_3 \right) n^{1+\alpha} - \frac{t_0}{4} \left( {\textstyle \frac{1}{2}} + x_0 \right) n \]
+\form#279:\[ 2 C n_B^{2/3} \left(9-5/M^{*}/M\right)+ \frac{27 t_3^{\prime}}{16} n^{1+\alpha} \alpha \left(\alpha^2-1\right) \]
+\form#280:$ t_0,t_1,t_2,t_3 $
+\form#281:$ \alpha $
+\form#282:$ E_b=E_b(n_0,M^{*},t_0,t_3,\alpha) $
+\form#283:$ P=P(n_0,M^{*},t_0,t_3,\alpha) $
+\form#284:$ K=K(n_0,M^{*},t_3,\alpha) $
+\form#285:$ t_0 $
+\form#286:$ M^{*}=M^{*}(n_0,t_1,t_2,x_2) $
+\form#287:$ x_1 $
+\form#288:$ E_{sym}=E_{sym}(x_0,x_1,x_2,x_3,t_0,t_1,t_2,t_3,\alpha) $
+\form#289:$ n_0, M^{*}, E_b, K $
+\form#290:$ t_0,t_3,\alpha $
+\form#291:$ M^{*}, E_b $
+\form#292:\begin{eqnarray*} C^{\rho \rho}_{00} &=& 3 t_0/8 \nonumber \\ C^{\rho \rho}_{10} &=& -t_0/4 \left(\frac{1}{2}+x_0 \right) \nonumber \\ C^{\rho \rho}_{0D} &=& t_3/16 \nonumber \\ C^{\rho \rho}_{1D} &=& -t_3/24 \left(\frac{1}{2}+x_3\right) \nonumber \\ C^{\rho \tau}_{0} &=& 3 t_1/16+t_2/4\left(\frac{5}{4}+x_2\right) \nonumber \\ C^{\rho \tau}_{1} &=& -t_1/8 \left(\frac{1}{2}+x_1\right) + t_2/8 \left(\frac{1}{2}+x_2\right) \nonumber \\ C^{\rho \Delta \rho}_{0} &=& -9/64 t_1+t_2/16 \left(\frac{5}{4}+x_2\right)\nonumber \\ C^{\rho \Delta \rho}_{1} &=& 3/32 t_1 \left(\frac{1}{2}+x_1\right) + t_2/32 \left(\frac{1}{2}+x_2\right) \nonumber \\ C^{\rho \nabla J}_{0} &=& -b_4 -b_4^{\prime}/2\nonumber \\ C^{\rho \nabla J}_{1} &=& -b_4^{\prime}/2 \end{eqnarray*}
+\form#293:$ \hat{\mu}$
+\form#294:$ \hat{\mu} $
+\form#295:$ Z_X $
+\form#296:$ N_X $
+\form#297:\[ \mu_X = N \mu_n + Z \mu_p - E_{\mathrm{bind},X} \]
+\form#298:$ \mu_n $
+\form#299:$ \mu_p $
+\form#300:$ E_{\mathrm{bind},X} $
+\form#301:\[ n_B = n_{X} (N_X + Z_X) \qquad Y_e n_B = n_X Z_X \]
+\form#302:$ n_X $
+\form#303:$ P=-B+P_{u,FG}+P_{d,FG}+P_{s,FG} $
+\form#304:$ P_{i,FG} $
+\form#305:$ fm^{-4}$
+\form#306:$200/(\hbar c) $
+\form#307:\[ {\cal L} = {\cal L}_{\mathrm{Dirac}} + {\cal L}_{\mathrm{4-fermion}} + {\cal L}_{\mathrm{6-fermion}} + {\cal L}_{CSC1} + {\cal L}_{CSC2} \]
+\form#308:\[ {\cal L}_{\mathrm{Dirac}} = \bar{q}_{i \alpha} \left( i {\partial} \delta_{i j} \delta_{\alpha \beta} - m_{i j} \delta_{\alpha \beta} - \mu_{i j,~\alpha \beta} \gamma^0 \right) q_{j \beta} \]
+\form#309:\[ {\cal L}_{\mathrm{4-fermion}} = G_S \sum_{a=0}^8 \left[ \left( \bar{q} \lambda^a_f q \right)^2 + \left( \bar{q} i \gamma_5 \lambda^a_f q \right)^2 \right] \]
+\form#310:\[ {\cal L}_{\mathrm{6-fermion}} = - G_{D} \left[ {\mathrm det}_{i j} \, \bar{q}_{i \alpha} \left( 1 + i \gamma_5 \right) q_{j \beta} + {\mathrm det}_{i j} \, \bar{q}_{i \alpha} \left( 1 - i \gamma_5 \right) q_{j \beta} \right] \delta_{\alpha \beta} \]
+\form#311:\[ {\cal L}_{CSC1} = G_{DIQ} \sum_k \sum_{\gamma} \left[ \left(\bar{q}_{i \alpha} \epsilon_{i j k} \epsilon_{\alpha \beta \gamma} q^C_{j \beta}\right) \left(\bar{q}_{i^{\prime} \alpha^{\prime}}^C \epsilon_{i^{\prime} j^{\prime} k} \epsilon_{\alpha^{\prime} \beta^{\prime} \gamma} q_{j^{\prime} \beta^{\prime}}\right)\right] \]
+\form#312:\[ {\cal L}_{CSC2} = G_{DIQ} \sum_k \sum_{\gamma} \left[ \left(\bar{q}_{i \alpha} i \gamma_5 \epsilon_{i j k} \epsilon_{\alpha \beta \gamma} q^C_{j \beta}\right) \left(\bar{q}_{i^{\prime} \alpha^{\prime}}^C i \gamma_5 \epsilon_{i^{\prime} j^{\prime} k} \epsilon_{\alpha^{\prime} \beta^{\prime} \gamma} q_{j^{\prime} \beta^{\prime}}\right) \right] \,, \]
+\form#313:$ \mu $
+\form#314:$ G_S $
+\form#315:$ G_D $
+\form#316:$ G_{DIQ} $
+\form#317:$ \Lambda $
+\form#318:\[ \Omega(\mu_i,\left<\bar{q} q\right>_i,\left< q q\right>_i,T) = \Omega_{\mathrm{vac}}+\Omega_{\mathrm{stat}} + \Omega_0 \]
+\form#319:$ \mu_Q=\mu_{\mathrm{Flavor(Q)}}+\mu_{\mathrm{Color(Q)}} $
+\form#320:\[ \mu_{\mathrm{red}} = \mu_3 + \mu_8/\sqrt{3} \quad \mu_{\mathrm{green}} = -\mu_3 + \mu_8/\sqrt{3} \quad \mu_{\mathrm{blue}} = -2 \mu_8 /\sqrt{3} \]
+\form#321:\[ \Omega(\mu_u, \mu_d, \mu_s, \mu_3, \mu_8, \left<\bar{u} u\right>, \left<\bar{d} d\right>, \left<\bar{s} s\right>, \left< u d\right>, \left< u s\right>, \left< d s\right>, T) \]
+\form#322:\[ \Omega_{\mathrm{stat}} = - \frac{1}{2} \int \frac{d^3 p}{\left(2 \pi\right)^3} \, \sum_{i=1}^{72} \left[ \frac{\lambda_i}{2} + T \ln{\left(1 + e^{-\lambda_i/T} \right)} \right] \]
+\form#323:\[ \Omega_{\mathrm{vac}} = - 2 G_S \sum_{i=u,d,s} \langle {\bar q_i} q_i \rangle^2 +4 G_D \left<{\bar u} u\right> \left<{\bar d} d \right> \left<{\bar s} s\right> + \sum_k \sum_{\gamma} \frac{\left|\Delta^{k \gamma}\right|^2}{4 G_{DIQ}} \]
+\form#324:$ \lambda_i $
+\form#325:\[ D = \left[ \begin{array}{cc} - \gamma^0 \vec{\gamma} \cdot \vec{p} - M_{i} \gamma^0 + \mu_{i \alpha} & \Delta i \gamma^0 \gamma_5 C \\ i \Delta \gamma^0 C \gamma_5 & - \gamma^0 \vec{\gamma}^T \cdot \vec{p} + M_{i} \gamma^0 - \mu_{i \alpha}\end{array} \right] \]
+\form#326:$ C $
+\form#327:\[ \frac{\partial \Omega}{\left<\bar{q} q\right>_i} = 0 \quad \frac{\partial \Omega}{\left<q q\right>_i} = 0 \]
+\form#328:$ \Lambda=602.3/(\hbar c), G=1.835/\Lambda^2, K=12.36/\Lambda^5 $
+\form#329:$ 10^{-4} $
+\form#330:$ \Omega $
+\form#331:$ d -\Omega / d T $
+\form#332:$ d \Omega / d \mu_u $
+\form#333:$ d \Omega / d \mu_d $
+\form#334:$ d \Omega / d \mu_s $
+\form#335:$ d \Omega / d m_u $
+\form#336:$ d \Omega / d m_d $
+\form#337:$ d \Omega / d m_s $
+\form#338:$ d \Omega / d \Delta_{ds} $
+\form#339:$ d \Omega / d \Delta_{us} $
+\form#340:$ d \Omega / d \Delta_{ud} $
+\form#341:$ d \Omega / d \mu_3 $
+\form#342:$ d \Omega / d \mu_8 $
+\form#343:\[ {\cal L} = {\cal L}_{Dirac} + {\cal L}_{NJL} + {\cal L}_{'t Hooft} + {\cal L}_{SC} + {\cal L}_{SC6} \]
+\form#344:\[ {\cal L}_{Dirac} = {\bar q} \left( i \partial -m - \mu \gamma^0 \right) q \]
+\form#345:\[ {\cal L}_{NJL} = G_S \sum_{a=0}^8 \left[ \left( {\bar q} \lambda^a q \right)^2 - \left( {\bar q} \lambda^a \gamma^5 q \right)^2 \right] \]
+\form#346:\[ {\cal L}_{'t Hooft} = G_D \left[ \mathrm{det}_f {\bar q} \left(1-\gamma^5 \right) q +\mathrm{det}_f {\bar q} \left(1+\gamma^5 \right) q \right] \]
+\form#347:\[ {\cal L}_{SC} = G_{DIQ} \left( {\bar q}_{i \alpha} i \gamma^5 \varepsilon^{i j k} \varepsilon^{\alpha \beta \gamma} q^C_{j \beta} \right) \left( {\bar q}_{\ell \delta} i \gamma^5 \epsilon^{\ell m k} \epsilon^{\delta \varepsilon \gamma} q^C_{m \varepsilon} \right) \]
+\form#348:\[ {\cal L}_{SC6} = K_D \left( {\bar q}_{i \alpha} i \gamma^5 \varepsilon^{i j k} \varepsilon^{\alpha \beta \gamma} q^C_{j \beta} \right) \left( {\bar q}_{\ell \delta} i \gamma^5 \epsilon^{\ell m n} \epsilon^{\delta \varepsilon \eta} q^C_{m \varepsilon} \right) \left( {\bar q}_{k \gamma} q_{n \eta} \right) \]
+\form#349:${\cal L}_{NJL}$
+\form#350:\[ {\cal L}_{NJL} = G_S \left[ \left({\bar u} u\right)^2+ \left({\bar d} d\right)^2+ \left({\bar s} s\right)^2 \right] \]
+\form#351:${\cal L}_{'t Hooft}$
+\form#352:\[ {\cal L}_{NJL} = G_D \left( {\bar u} u {\bar d} d {\bar s} s \right) \]
+\form#353:\[ \Delta^{k \gamma} = \left< {\bar q} i \gamma^5 \epsilon \epsilon q^C_{} \right> \]
+\form#354:\[ ({\bar q}_1 q_2) ({\bar q}_3 q_4) \rightarrow {\bar q}_1 q_2 \left< {\bar q}_3 q_4 \right> +{\bar q}_3 q_4 \left< {\bar q}_1 q_2 \right> -\left< {\bar q}_1 q_2 \right> \left< {\bar q}_3 q_4 \right> \]
+\form#355:\[ ({\bar q}_1 q_2) ({\bar q}_3 q_4) ({\bar q}_5 q_6) \rightarrow {\bar q}_1 q_2 \left< {\bar q}_3 q_4 \right> \left< {\bar q}_5 q_6 \right> +{\bar q}_3 q_4 \left< {\bar q}_1 q_2 \right> \left< {\bar q}_5 q_6 \right> +{\bar q}_5 q_6 \left< {\bar q}_1 q_2 \right> \left< {\bar q}_3 q_4 \right> -2\left< {\bar q}_1 q_2 \right> \left< {\bar q}_3 q_4 \right> \left< {\bar q}_5 q_6 \right> \]
+\form#356:\[ {\cal L}_{NJL} = 2 G_S \left[ \left( {\bar u} u \right) \left< {\bar u} u \right> +\left( {\bar d} d \right) \left< {\bar d} d \right> +\left( {\bar s} s \right) \left< {\bar s} s \right> - \left< {\bar u} u \right>^2 - \left< {\bar d} d \right>^2 - \left< {\bar s} s \right>^2 \right] \]
+\form#357:\[ {\cal L}_{'t Hooft} = - 2 G_D \left[ \left( {\bar u} u \right) \left< {\bar u} u \right> \left< {\bar s} s \right> + \left( {\bar d} d \right) \left< {\bar u} u \right> \left< {\bar s} s \right> + \left( {\bar s} s \right) \left< {\bar u} u \right> \left< {\bar d} d \right> - 2 \left< {\bar u} u \right>\left< {\bar d} d \right> \left< {\bar s} s \right> \right] \]
+\form#358:\[ {\cal L}_{SC} = G_{DIQ} \left[ \Delta^{k \gamma} \left( {\bar q}_{\ell \delta} i \gamma^5 \epsilon^{\ell m k} \epsilon^{\delta \varepsilon \gamma} q^C_{m \varepsilon} \right) + \left( {\bar q}_{i \alpha} i \gamma^5 \varepsilon^{i j k} \varepsilon^{\alpha \beta \gamma} q^C_{j \beta} \right) \Delta^{k \gamma \dagger} - \Delta^{k \gamma} \Delta^{k \gamma \dagger} \right] \]
+\form#359:\[ {\cal L}_{SC6} = K_D \left[ \left( {\bar q}_{m \varepsilon} q_{n \eta} \right) \Delta^{k \gamma} \Delta^{m \varepsilon \dagger} + \left( {\bar q}_{i \alpha} i \gamma^5 \varepsilon^{i j k} \varepsilon^{\alpha \beta \gamma} q^C_{j \beta} \right) \Delta^{m \varepsilon \dagger} \left< {\bar q}_{m \varepsilon} q_{n \eta} \right> \right] \]
+\form#360:\[ + K_D \left[\Delta^{k \gamma} \left( {\bar q}_{\ell \delta} i \gamma^5 \epsilon^{\ell m n} \epsilon^{\delta \varepsilon \eta} q^C_{m \varepsilon} \right) \left< {\bar q}_{m \varepsilon} q_{n \eta} \right> -2 \Delta^{k \gamma} \Delta^{m \varepsilon \dagger} \left< {\bar q}_{m \varepsilon} q_{n \eta} \right> \right] \]
+\form#361:$ {\tilde \Delta} = 2 G_{DIQ} \Delta $
+\form#362:$ 10^{-6} $
+\form#363:\[ {\cal L} = \bar q ( i \partial{\hskip-2.0mm}/ - {\hat m_0}) q \;+\; G \sum_{k=0}^8 [\,({\bar q}\lambda_k q)^2 + ({\bar q} i\gamma_5\lambda_k q)^2\,] + {\cal L}_6 \]
+\form#364:\[ {\cal L}_6 = - K \,[ \,{\rm det}_f ({\bar q}(1+\gamma_5) q) + {\rm det}_f ({\bar q}(1-\gamma_5) q) \,] \, . \]
+\form#365:\[ \Omega = \Omega_{FG} + \Omega_{Int} \]
+\form#366:$\Omega_{FG}$
+\form#367:\[ \frac{\Omega_{\mathrm{Int}}}{V} = - 2 N_c \sum_{i=u,d,s} \int \frac {d^3p}{(2\pi)^3} \sqrt{m_i^2 + p^2} + \frac{\Omega_{V}}{V} \]
+\form#368:\[ \frac{\Omega_{V}}{V} = \sum_{i=u,d,s} 2 G \langle\bar{q}_i q_i \rangle^2 - 4 K \langle \bar{q}_u q_u \rangle \langle \bar{q}_d q_d \rangle \langle \bar{q}_s q_s \rangle + B_0\,. \]
+\form#369:$B_0$
+\form#370:$\Omega_{Int}/V$
+\form#371:\[ \sum_{i=u,d,s} 2 N_C \int_0^{\Lambda} \frac{d^3 p}{(2 \pi)^3} \sqrt{ m_{0,i}^2+p^2 } ~dp \]
+\form#372:\[ \left< \bar{q} q \right> = \frac{\partial m^{*}}{\partial m} \]
+\form#373:$ Y_e m_p + (1-Y_e) m_n $
+\form#374:$ m_n $
+\form#375:\[ E - E_{\mathrm{int}} = E_{\mathrm{eg}} - Y_e (m_n - m_p) \]
+\form#376:$ E_{\mathrm{eg}} $
+\form#377:$ Y_p = 0.1 $
+\form#378:\[ m_n (1-Y_e) + m_p Y_e \]
+\form#379:$ m_p $
+\form#380:$ \mathrm{MeV}/\mathrm{fm}^3 $
+\form#381:$ \mathrm{MeV} $
+\form#382:$ (n_B,T) $
+\form#383:$ (n_B,Y_e) $
+\form#384:$ (T,Y_e) $
+\form#385:$ \mu_n-\mu_p-\mu_e+1.293~\mathrm{MeV} $
+\form#386:$ \mathrm{g}/\mathrm{cm}^3 $
+\form#387:$ 1/\mathrm{fm}^3 $
+\form#388:\[ \varepsilon = 12 \sqrt{p_{*} P}- 5 P \]
+\form#389:\[ R=(1-\beta) \sqrt{\frac{\pi}{288 p_{*} G (1-2 \beta)}} \]
+\form#390:$ \beta = GM/R $
+\form#391:\[ \mu = \mu_1 \left[ \frac{\left(9 p_{*}-P_1\right) \left(3+t_1\right) \left(3-t_2\right)}{\left(9 p_{*}-P\right)\left(3-t_1\right) \left(3+t_2\right)}\right]^{1/4} \]
+\form#392:$ t_1 = \sqrt{P}/\sqrt{p_{*}} $
+\form#393:$ t_2 = \sqrt{P_1/p_{*}} $
+\form#394:$ \mu_1 = m_n $
+\form#395:$ P_1 = 0 $
+\form#396:\[ n m_n = 12 \sqrt{P p_{*}} \left( 1-\frac{1}{3} \sqrt{P/p_{*}} \right)^{3/2} \]
+\form#397:\[ P_c = 36 p_{*} \beta^2 \]
+\form#398:\[ {\varepsilon}_c = 72 p_{*} \beta (1-5 \beta/2) \]
+\form#399:$ P< 25 p_{*}/144 $
+\form#400:$ \beta<1/6 $
+\form#401:$ P = K \varepsilon^{1+1/n} $
+\form#402:$ \left(M_{\odot}/km^3\right)^{-1/n} $
+\form#403:$ P = c_s^2 (\varepsilon-\varepsilon_0) $
+\form#404:$ P_1 $
+\form#405:$ P_2 $
+\form#406:\[ \varepsilon(P) = [1-\chi(P)] \varepsilon_{\mathrm{crust}}(P) + \chi(P) \varepsilon_{\mathrm{core}}(P) \]
+\form#407:$ \chi(P) $
+\form#408:\[ \chi(P) = (P-P_1)/(P_2-P_1) \, . \]
+\form#409:$ \varepsilon_1=\varepsilon_{\mathrm{crust}}(P_1) $
+\form#410:$ \varepsilon_2=\varepsilon_{\mathrm{core}}(P_2) $
+\form#411:\[ \varepsilon(P) = (\varepsilon_2 - \varepsilon_1) \chi + \varepsilon_1 \, . \]
+\form#412:$ \chi $
+\form#413:$ \mathrm{M}_{\odot}/\mathrm{km}^3 $
+\form#414:$ M_{\odot}/\mathrm{km}^3 $
+\form#415:$ 3.2 \times 10^{-5} $
+\form#416:\begin{eqnarray*} r^{\prime} &=& r \left(1-\beta+u\right)^{-1} \left(1 - 2 \beta\right) \nonumber \\ A^2 &=& 288 \pi p_{*} G \left( 1 - 2 \beta \right)^{-1} \end{eqnarray*}
+\form#417:$ u = \beta/(A r^{\prime}) \sin A r^{\prime} $
+\form#418:$ r^{\prime} $
+\form#419:\begin{eqnarray*} 8 \pi P &=& A^2 u^2 \left(1 - 2 \beta \right) \left(1 - \beta + u \right)^{-2} \nonumber \\ 8 \pi \varepsilon &=& 2 A^2 u \left(1 - 2 \beta\right) \left(1 - \beta - 3 u/2\right) \left(1 - \beta + u \right)^{-2} \nonumber \\ \end{eqnarray*}
+\form#420:$ 28 < S < 38 $
+\form#421:$ 25 < L < 115 $
+\form#422:$ 0.01 < n_t < 0.15 $
+\form#423:$ L > 5 S-65~\mathrm{MeV} $
+\form#424:$ P=\mathrm{ptrans}/pmathrm{pw} $
+\form#425:$ P=\mathrm{ptrans} \times pmathrm{pw} $
+\form#426:$ 1/\mathrm{fm} $
+\form#427:$ 1/\mathrm{fm}^4 $
+\form#428:\[ s \equiv \left( k_{F,n}+k_{F,p}+k_{F,e} \right)/2 \]
+\form#429:\[ a=\sqrt{s(s-k_{F,n})(s-k_{F,p})(s-k_{F,e})} \, . \]
+\form#430:$ a^2 $
+\form#431:\[ c_s^2 = \frac{ d P }{d \varepsilon} \]
+\form#432:\[ \Gamma = \frac{ d \ln P} { d \ln \varepsilon} \]
+\form#433:$ \Gamma $
+\form#434:$ 4/3 $
+\form#435:$ \beta $
+\form#436:$ ^{208}\mathrm{Pb} $
+\form#437:$ n $
+\form#438:$ m $
+\form#439:$ \sigma(r), \omega(r) $
+\form#440:$ \rho(r) $
+\form#441:$ n(r) $
+\form#442:$ n_n(r) $
+\form#443:$ n_p(r) $
+\form#444:$ n_s(r) $
+\form#445:\begin{eqnarray*} F^{\prime}_{\alpha}(r)- \frac{\kappa}{r} F_{\alpha}(r) + \left[ \varepsilon_{\alpha} - g_{\omega} \omega(r) - t_{\alpha} g_{\rho} \rho(r) - \left( t_{\alpha}+\frac{1}{2} \right) e A(r) - M + g_{\sigma} \sigma(r) \right] G_{\alpha}(r) &=& 0 \\ G^{\prime}_{\alpha}(r)+ \frac{\kappa}{r} G_{\alpha}(r) - \left[ \varepsilon_{\alpha} - g_{\omega} \omega(r) - t_{\alpha} g_{\rho} \rho(r) - \left( t_{\alpha}+\frac{1}{2} \right) e A(r) + M - g_{\sigma} \sigma(r) \right] F_{\alpha}(r) &=& 0 \end{eqnarray*}
+\form#446:$ t_{\alpha} $
+\form#447:$ 1/2 $
+\form#448:$ -1/2 $
+\form#449:\begin{eqnarray*} \sigma^{\prime \prime}(r) + \frac{2}{r} \sigma^{\prime}(r) - m_{\sigma}^2 \sigma &=& - g_{\sigma} n_s(r) + b M g_{\sigma}^3 \sigma^2 + c g_{\sigma}^4 \sigma^3 - g_{\rho}^2 \rho^2 \frac{\partial f}{\partial \sigma} \\ \omega^{\prime \prime}(r) + \frac{2}{r} \omega^{\prime}(r) - m_{\omega}^2 \omega &=& - g_{\omega} n(r) + \frac{\zeta}{6} g_{\omega}^4 \omega^3 + g_{\rho}^2 \rho^2 \frac{\partial f}{\partial \omega} \\ \rho^{\prime \prime}(r) + \frac{2}{r} \rho^{\prime}(r) - m_{\rho}^2 \rho &=& - \frac{g_{\rho}}{2} \left[n_n(r)-n_p(r)\right] + 2 g_{\rho}^2 \rho f + \frac{\xi}{6} g_{\rho}^4 \rho^3 \end{eqnarray*}
+\form#450:\[ A^{\prime \prime}(r) + \frac{2}{r} A^{\prime}(r) = - e n_p(r) \]
+\form#451:\begin{eqnarray*} n_s(r) &=& \sum_{\alpha} \left\{ \int d^3 r \left[ G(r)^2-F(r)^2 \right] \right\} \\ n(r) &=& \sum_{\alpha} \left\{ \int d^3 r \left[ G(r)^2+F(r)^2 \right] \right\} \\ n_i(r) &=& \sum_{\alpha} \left\{ t_{\alpha} \int d^3 r \left[ G(r)^2-F(r)^2 \right] \right\} \\ n_c(r) &=& \sum_{\alpha} \left\{ \left[t_{\alpha}+\frac{1}{2}\right] \int d^3 r \left[ G(r)^2-F(r)^2 \right] \right\} \end{eqnarray*}
+\form#452:\[ E = \sum_{\alpha} \varepsilon_{\alpha} (2 j_{\alpha}+1) - \frac{1}{2} \int d^{3} r \left[- g_{\sigma} \sigma(r) \rho_s(r) + g_{\omega} \omega(r) \rho(r) + \frac{1}{2} g_{\rho} \rho(r) + e A(r) n_p(r) \right] \]
+\form#453:\[ \rho_{\mathrm{ch}}(r) = \int d^{3} r^{\prime} \rho_{\mathrm{prot}}(r-r^{\prime}) \rho_p(r) \]
+\form#454:\[ \rho_{\mathrm{prot}}(r) = \frac{\mu^3}{8 \pi} \exp \left( - \mu |r|\right) \]
+\form#455:$ \mu = (0.71)^{1/2}~\mathrm{GeV} $
+\form#456:$ r=0 $
+\form#457:$ r=\Delta r $
+\form#458:$ m_n \neq m_p $
+\form#459:$ 5 \times 10^{-3} $
+\form#460:$ 5 \times 10^{-4} $
+\form#461:\[ \sigma(r)=\mathrm{sigma0}/ [1+\exp((r-\mathrm{fermi\_radius})/\mathrm{fermi\_width})] \]
+\form#462:\[ \left[r^2 \sigma^{\prime}(r) \right]^{\prime} - r^2 m_{\sigma}^2 \sigma(r) = f(r) \]
+\form#463:$ \sigma(0) = \sigma_0 $
+\form#464:$ \sigma(+\infty) = 0 $
+\form#465:$ f(r) =0 $
+\form#466:$ \sigma(r) = \sigma_0 \sinh( m_{\sigma} r)/ (m_{\sigma} r) $
+\form#467:\[ D(r,r^{\prime},m_{\sigma}) = \frac{-1}{m_{\sigma} r r^{\prime}} \sinh (m_{\sigma} r_{<}) \exp (-m_{\sigma} r_{>}) \]
+\form#468:$ r_{<} $
+\form#469:$ r $
+\form#470:$ r_{>} $
+\form#471:\[ \sigma(r) = \int_0^{\infty} r^{\prime 2}~d r^{\prime} \left[ - g_{\sigma} n_{s}(r) \right] D\left(r,r^{\prime},m_{\sigma}\right) \]
+\form#472:$ \sinh (m r) \approx e^{m r}/2 $
+\form#473:\[ D(r,r^{\prime},m_{\sigma}) \approx \left[ \frac{-1}{2 m_{\sigma} r_{<}} \exp (m_{\sigma} r_{<}) \right] \left[ \frac{1}{r_{>}} \exp (-m_{\sigma} r_{>}) \right] \]
+\form#474:\[ \mathrm{gin}(r) = \frac{e^{m_{\sigma} r}}{2 m_{\sigma} r} \]
+\form#475:\[ \mathrm{gout}(r) = \frac{e^{-m_{\sigma} r}}{r} \, . \]
+\form#476:\[ \sigma(r)= \left(\frac{e^{-m_{\sigma} r}}{r}\right) \int_0^{r} r^{\prime 2} g_{\sigma} n_{s} \left(\frac{e^{m_{\sigma} r^{\prime}}}{2 m_{\sigma} r^{\prime}} \right)~d r^{\prime} + \left(\frac{e^{m_{\sigma} r}}{2 m_{\sigma} r} \right) \int_r^{\infty} r^{\prime 2} g_{\sigma} n_{s} \left(\frac{e^{-m_{\sigma} r^{\prime}}} {r^{\prime}}\right)~d r^{\prime} \]
+\form#477:$ r^{\prime}=0 $
+\form#478:\[ \Delta \varepsilon = -g(r=\mathrm{match\_point}) \times (f^{+}-f^{-}) \]
+\form#479:$ 2 j+1 $
+\form#480:$ +1/2 $
+\form#481:$ ^{2s+1} \ell_{j} $
+\form#482:$ n_0 $
+\form#483:$ n_t $
+\form#484:$ I = 1 - 2 Z/A $
+\form#485:$ \delta = I $
+\form#486:$ n_L $
+\form#487:\[ n_L = n_0 + n_1 \delta^2 \]
+\form#488:$ n_{p} = (1 - \delta)/2 n_L $
+\form#489:$ n_{n} = (1 + \delta)/2 n_L $
+\form#490:$ \delta < I $
+\form#491:$ N_{\mathrm{skin}} = N-Z $
+\form#492:\begin{eqnarray*} R_n &=& \left( \frac{3 N}{4 \pi n_n} \right)^{1/3} \nonumber \\ R_n &=& \left( \frac{3 Z}{4 \pi n_p} \right)^{1/3} \end{eqnarray*}
+\form#493:$ \sim -16 $
+\form#494:\[ E_{\mathrm{bulk}}/A = \frac{\hbar c}{n_{L} } \left[\varepsilon(n_n,n_p) - n_n m_n - n_p m_p \right] \]
+\form#495:\[ \varepsilon = \frac{\chi d \sigma}{R} \]
+\form#496:$ n_n + n_p $
+\form#497:\[ E_{\mathrm{surf}} = \frac{3 \sigma}{n_n + n_p} \left[ \frac{3 A}{ 4 (n_n+n_p) \pi} \right]^{-1/3} \]
+\form#498:\[ E_{\mathrm{surf}} = \frac{\sigma}{n_L} \left(\frac{36 \pi n_L}{A} \right)^{1/3} \]
+\form#499:$ \sigma =1.1~\mathrm{MeV} $
+\form#500:$ n_L = 0.16~\mathrm{fm}^{-3} $
+\form#501:$ E_{\mathrm{surf}}/A = 18~\mathrm{MeV}~A^{-1/3} $
+\form#502:\[ \varepsilon_{\mathrm{Coul}} = \frac{4 \pi}{5} n_p^2 e^2 R_p^2 \]
+\form#503:\[ E_{\mathrm{Coul}}/A = \frac{4 \pi}{5 n_L} n_p^2 e^2 R_p^2 \]
+\form#504:$ R_p = R $
+\form#505:$ Z = \frac{4 \pi}{3} R^3 n_p $
+\form#506:$ R = \left[ 3 A / (4 \pi n_L) \right]^{1/3} $
+\form#507:\[ E_{\mathrm{Coul}}/A = \frac{6^{2/3}}{5} \pi^{1/3} e^2 n_L^{1/3} \frac{Z^2}{A^{4/3}} \]
+\form#508:$ e^2 = \hbar c/137 $
+\form#509:\[ E_{\mathrm{Coul}}/A = 0.76~\mathrm{MeV}~Z^2 A^{-4/3} \]
+\form#510:$ n_n, n_p, R_n, R_p $
+\form#511:$ \delta \equiv I \zeta $
+\form#512:$ \zeta $
+\form#513:$ N > Z~\mathrm{iff}~R_n>R_p $
+\form#514:\begin{eqnarray*} A_{\mathrm{core}} = Z (n_n+n_p)/n_p~\mathrm{for}~N\geq Z \\ A_{\mathrm{core}} = N (n_n+n_p)/n_p~\mathrm{for}~Z>N \\ \end{eqnarray*}
+\form#515:$ A_{\mathrm{skin}} = A - A_{\mathrm{core}} $
+\form#516:\[ E_{\mathrm{core}}/A = \left(\frac{A_{\mathrm{core}}}{A}\right) \frac{\hbar c}{n_{L} } \left[\varepsilon(n_n,n_p) - n_n m_n - n_p m_p \right] \]
+\form#517:\[ E_{\mathrm{skin}}/A = \left(\frac{A_{\mathrm{skin}}}{A}\right) \frac{\hbar c}{n_{L} } \left[\varepsilon(n_n,0) - n_n m_n \right]~\mathrm{for}~N>Z \]
+\form#518:\[ E_{\mathrm{skin}}/A = \left(\frac{A_{\mathrm{skin}}}{A}\right) \frac{\hbar c}{n_{L} } \left[\varepsilon(0,n_p) - n_p m_p \right]~\mathrm{for}~Z>N \]
+\form#519:\[ E_{\mathrm{surf}} = \frac{\sigma}{n_L} \left(\frac{36 \pi n_L}{A} \right)^{1/3} \left( 1- \sigma_{\delta} \delta^2 \right) \]
+\form#520:$ \sigma_{\delta} $
+\form#521:\[ \varepsilon = 2 \pi e^2 R_p^2 n_p^2 f_d(\chi_p) \]
+\form#522:$ f_d(\chi) $
+\form#523:\[ f_d(\chi_p) = \frac{1}{(d+2)} \left[ \frac{2}{(d-2)} \left( 1 - \frac{d}{2} \chi_p^{(1-2/d)} \right) + \chi_p \right] \]
+\form#524:$ d=3 $
+\form#525:\[ E_{\mathrm{pair}}/A = - \frac{\zeta}{2 A^{3/2}} \left[ \cos(Z \pi) + \cos(N \pi) \right] \]
+\form#526:$ 0.16 \mathrm{fm}^{-3} $
+\form#527:$ \delta/I $
+\form#528:$ fm^{-1} $
+\form#529:$ 20.085/(\hbar c)$
+\form#530:$ 5.2 \times 10^{-5}~\mathrm{Msun}/\mathrm{km}^3 $
+\form#531:$ \mathrm{M}_{\odot} $
+\form#532:$ \mathrm{km} $
+\form#533:$ \mathrm{g}/\mathrm{cm}^{2} $
+\form#534:$ \mathrm{M}_{\odot}/\mathrm{km} $
+\form#535:$ 1/\mathrm{km} $
+\form#536:$ 10^8 $
+\form#537:$ \bar{\omega} $
+\form#538:$ j $
+\form#539:$ f\equiv \bar{\omega}/\Omega $
+\form#540:$ g \equiv r^4 j~df/dr $
+\form#541:$ m(r=0)=g(r=0)=0 $
+\form#542:$ \Phi(r=0) $
+\form#543:$ f(r=0) $
+\form#544:\begin{eqnarray*} \frac{d P}{d r} &=& - \frac{G \varepsilon m}{r^2} \left( 1+\frac{P}{\varepsilon}\right) \left( 1+\frac{4 \pi P r^3}{m} \right) \left( 1-\frac{2 G m}{r}\right)^{-1} \nonumber \\ \frac{d m}{d r} &=& 4 \pi r^2 \varepsilon \nonumber \\ \frac{d \Phi}{d r} &=& - \frac{1}{\varepsilon} \frac{ d P}{d r} \left(1+\frac{P}{\varepsilon}\right)^{-1} \nonumber \\ \frac{d g}{dr} &=& -4 r^3 \frac{d j}{dr} f \nonumber \\ \frac{d f}{dr} &=& \frac{g}{r^4 j} \end{eqnarray*}
+\form#545:$ \Phi $
+\form#546:$ r=R $
+\form#547:$ g $
+\form#548:$ g=r^4 j (df/dr) $
+\form#549:\[ f(r=R) + \frac{R}{3} \left(\frac{df}{dr}\right)_{r=R} = 1 \]
+\form#550:$ e^{-\mathrm{min\_log\_pres}} $
+\form#551:$ \mathrm{M}_{\odot}/km^3 $
+\form#552:$ 10^5 $
+\form#553:$ d (\bar{\omega}/\Omega)/dr $
+\form#554:$ 10^{20} $
+\form#555:$ 5.2 \times 10^{-5} $
+\form#556:$ c=1 $
+\form#557:\[ ds^2 = - e^{2 \Phi(r)} d t^2 + e^{2 \Lambda(r)} d r^2 + r^2 d \theta^2 + r^2 \sin^2 \theta~d \phi^2 \]
+\form#558:$ \theta $
+\form#559:$ \Phi \equiv \Phi(r) $
+\form#560:\[ \frac{d P}{d r} = - \frac{G \varepsilon m}{r^2} \left( 1+\frac{P}{\varepsilon}\right) \left( 1+\frac{4 \pi P r^3}{m} \right) \left( 1-\frac{2 G m}{r}\right)^{-1} \]
+\form#561:$r$
+\form#562:$m(r)$
+\form#563:$\varepsilon(r)$
+\form#564:$P(r)$
+\form#565:$G$
+\form#566:\[ \frac{d m}{d r} = 4 \pi r^2 \varepsilon \]
+\form#567:$ P(\varepsilon) $
+\form#568:\[ M = \int_0^R 4 \pi r^2 \varepsilon d r \]
+\form#569:$m(r=0)=0$
+\form#570:$P(r=R)=0$
+\form#571:$R$
+\form#572:$ R $
+\form#573:\[ e^{2 \Lambda} = \left( 1-\frac{2 G m}{r}\right)^{-1} \]
+\form#574:$\Phi(r)$
+\form#575:\[ e^{2 \Phi} = \left( 1-\frac{2 G M}{r}\right) \]
+\form#576:\[ \frac{d \Phi}{d r} = - \frac{1}{\varepsilon} \frac{ d P}{d r} \left(1+\frac{P}{\varepsilon}\right)^{-1} = \frac{G m}{r^2} \left( 1+\frac{4 \pi P r^3}{m} \right) \left( 1-\frac{2 G m}{r}\right)^{-1} \]
+\form#577:\[ -d \Phi = \frac{d P}{P+\varepsilon} \, . \]
+\form#578:\[ -d \Phi = \frac{d P}{\mu n} = \frac{d \mu}{\mu} \]
+\form#579:$ \mu e^{\Phi} $
+\form#580:\[ -d \Phi = \frac{d P}{h} \]
+\form#581:$ h $
+\form#582:$ d h = T d s + d P $
+\form#583:\[ -d \Phi = \frac{d h}{h} \]
+\form#584:$ h e^{\Phi} $
+\form#585:\[ \Phi(r=R) = \frac{1}{2} \ln \left(1-\frac{2 G M}{R} \right) \]
+\form#586:$ \Phi(r) $
+\form#587:$ d\Phi/dr $
+\form#588:\[ g = \frac{G m}{r^2}\left(1-\frac{2 G m}{r}\right)^{-1/2} \]
+\form#589:\[ z = \left(1-\frac{2 G m}{r}\right)^{-1/2} - 1 \]
+\form#590:\[ M_B = \int_0^R 4 \pi r^2 n_B m_B \left(1-\frac{2 G m}{r}\right)^{-1/2} d r \]
+\form#591:$ n_B(r) $
+\form#592:$ m_B $
+\form#593:\[ I = \frac{8 \pi}{3} \int_0^R dr~r^4\left(\varepsilon+P\right) \left(\frac{\bar{\omega}}{\Omega}\right) e^{\Lambda-\Phi} = \frac{8 \pi}{3} \int_0^R dr~r^4\left(\varepsilon+P\right) \left(\frac{\bar{\omega}}{\Omega}\right) \left(1-\frac{2 G m}{r}\right)^{-1/2} e^{-\Phi} \]
+\form#594:$ \omega(r) $
+\form#595:$ \bar{\omega}(r) \equiv \Omega - \omega(r) $
+\form#596:$ \bar{\omega}(r) $
+\form#597:\[ \frac{d}{dr} \left( r^4 j \frac{d \bar{\omega}}{dr}\right) + 4 r^3 \frac{d j}{dr} \bar{\omega} = 0 \]
+\form#598:$ j(r) $
+\form#599:\[ j = e^{-\Lambda-\Phi} = \left( 1-\frac{2 G m}{r} \right)^{1/2} e^{-\Phi} \, . \]
+\form#600:$ j(r=R) = 1 $
+\form#601:$ d \bar{\omega}/dr = 0 $
+\form#602:\[ \bar{\omega}(R) = \Omega - \left(\frac{R}{3}\right) \left(\frac{d \bar{\omega}}{dr}\right)_{r=R} \, . \]
+\form#603:\[ I= \left(\frac{d \bar{\omega}}{dr}\right)_{r=R} \frac{R^4}{6 G \Omega} \, . \]
+\form#604:$ J = I \Omega $
+\form#605:$ 10^{6}~\mathrm{g}/\mathrm{cm}^3 $
+\form#606:$ 4 \times 10^{11}~\mathrm{g}/\mathrm{cm}^3 $
+\form#607:$ X_i $
+\form#608:\[ X_i = A_i n_i n_B^{-1} \, , \]
+\form#609:$ A_i $
+\form#610:$ n_i $
+\form#611:$ X_h = A n_h n_B^{-1} $
+\form#612:$ A $

@@ -1,0 +1,41 @@
+Systems for which Cubpack++ has proven it works
+===============================================
+Compiler       Version    Operating System      Machine type
+--------------------------------------------------------------
+g++/gcc         2.8.0     Solaris
+                2.7.2.1   Debian Linux 1.3.1
+                              (kernel 2.0.30)      
+                2.7.2     Ultrix 4.4           DECstation 5000
+                          SunOS 5.3            Sparcenter 1000
+                          Linux 1.2.4          i586
+                2.6.0     HP-UX
+--------------------------------------------------------------
+xlC                       AIX Version 3.2      IBM RS6000
+--------------------------------------------------------------
+cxx                       OSF/1 V1.3           DECalpha
+--------------------------------------------------------------
+CC              SC4.0     SunOS 5.3            Sparcenter 1000
+--------------------------------------------------------------
+Turbo C++         3.0     MSDOS 5.0            i486 
+--------------------------------------------------------------
+
+
+Systems for which a workaround is provided
+==========================================
+Compiler       Version    Operating System      Machine type
+--------------------------------------------------------------
+CC              SC3.0     SunOS 5.3            Sparcenter 1000
+            (15 Dec 1993)
+Workaround activated with compiler option -DSOLARIS
+Note that this bug was removed from CC in version SC3.0.1.
+--------------------------------------------------------------
+
+
+
+Systems for which Cubpack++ is too complex
+==========================================
+Compiler       Version    Operating System      Machine type
+--------------------------------------------------------------
+CC            SC2.0.1     SunOS 4.                  Sun4
+--------------------------------------------------------------
+The answer from vendors to these problems is: upgrade.

@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1410143277 source:/Users/Kyle/local/GSLTest.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cmath>
+	<gsl/gsl_integration.h>
+
+1410136357 /Users/Kyle/local/include/gsl/gsl_integration.h
+	<stdlib.h>
+	<gsl/gsl_math.h>
+
+1410136358 /Users/Kyle/local/include/gsl/gsl_math.h
+	<math.h>
+	<gsl/gsl_sys.h>
+	<gsl/gsl_inline.h>
+	<gsl/gsl_machine.h>
+	<gsl/gsl_precision.h>
+	<gsl/gsl_nan.h>
+	<gsl/gsl_pow_int.h>
+	<gsl/gsl_minmax.h>
+
+1410136356 /Users/Kyle/local/include/gsl/gsl_sys.h
+
+1410136358 /Users/Kyle/local/include/gsl/gsl_inline.h
+
+1410136358 /Users/Kyle/local/include/gsl/gsl_machine.h
+	<limits.h>
+	<float.h>
+
+1410136358 /Users/Kyle/local/include/gsl/gsl_precision.h
+	<gsl/gsl_types.h>
+
+1410136358 /Users/Kyle/local/include/gsl/gsl_types.h
+
+1410136358 /Users/Kyle/local/include/gsl/gsl_nan.h
+
+1410136358 /Users/Kyle/local/include/gsl/gsl_pow_int.h
+	<gsl/gsl_inline.h>
+
+1410136358 /Users/Kyle/local/include/gsl/gsl_minmax.h
+	<gsl/gsl_inline.h>
+
+1410142661 source:/Users/Kyle/local/GSLTestProject/main.cpp
+	<iostream>
+

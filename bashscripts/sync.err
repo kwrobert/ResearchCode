@@ -1,0 +1,24 @@
+mkdir: cannot create directory `DATA': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/chrissubmissiontests_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/HighChemicalPotentials_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/u_100_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/u_120_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/u_80_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/scratch2_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/submittests_OUTPUT': File exists
+mkdir: /Users/Kyle/local/DATA: File exists
+ssh: connect to host  port 22: Connection refused
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: unexplained error (code 255) at /SourceCache/rsync/rsync-42/rsync/io.c(452) [receiver=2.6.9]
+mkdir: cannot create directory `DATA': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/chrissubmissiontests_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/HighChemicalPotentials_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/u_100_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/u_120_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/u_80_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/scratch2_OUTPUT': File exists
+mkdir: cannot create directory `/users/k/w/kwrobert/DATA/submittests_OUTPUT': File exists
+mkdir: /Users/Kyle/local/DATA: File exists
+ssh: connect to host  port 22: Connection refused
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: unexplained error (code 255) at /SourceCache/rsync/rsync-42/rsync/io.c(452) [receiver=2.6.9]

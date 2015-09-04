@@ -1,0 +1,21 @@
+[ If you are using UNIX, read the file README instead of this one. ]
+
+                                                     17 August 2001
+The current version of Cubpack++ is Version 1.2.1
+=================================================
+
+   |The complete Cubpack++ distribution is in the file all.zip .
+   |
+   |Switch your ftp to binary mode before you get this file.
+   |
+   |Once you have this file on your machine, you have to execute
+   |     unzip -aL all.zip
+   |You now have a directory named CUBPACK .
+   ---------------------------------------------------------------------
+    
+Start by reading CUBPACK\DOCUMENT\USERMAN.* and
+                 CUBPACK\README.1ST
+
+Enjoy Cubpack++!
+
+

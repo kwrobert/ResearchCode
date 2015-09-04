@@ -1,0 +1,254 @@
+\form#0:\[ \psi = \frac{h}{(h+\sqrt{a})} - \ln \left( \frac{h+\sqrt{a}}{\sqrt{a}}\right) \]
+\form#1:$ h $
+\form#2:$ \psi=(\mu-m)/T $
+\form#3:$ f $
+\form#4:$ \psi $
+\form#5:$ a $
+\form#6:$ \mu/T>308 $
+\form#7:$ k_F = ( 6 \pi^2 n /g )^{1/3} $
+\form#8:\[ \varepsilon = \frac{g}{2 \pi^2} \int_0^{k_F} k^2 \sqrt{k^2+m^{* 2}} d k \]
+\form#9:\[ P=\frac{g}{6 \pi^2} \int_0^{k_F} \frac{k^4}{\sqrt{k^2+m^{* 2}}} d k \]
+\form#10:$ \mu $
+\form#11:$ \psi \equiv (\mu-m)/T $
+\form#12:$ t \equiv T/m $
+\form#13:$ d \equiv g~m^4/(2 \pi^2) $
+\form#14:$ \psi \rightarrow - \infty $
+\form#15:\[ P = d \sum_{n=1}^{\infty} P_n \]
+\form#16:\[ P_n \equiv \left(-1\right)^{n+1} \left(\frac{t^2}{n^2}\right) e^{n \left(\psi+1/t\right)} K_2 \left( \frac{n}{t} \right) \]
+\form#17:\[ n = d \sum_{n=1}^{\infty} \frac{n P_n}{T} \]
+\form#18:\[ s = \frac{d}{m} \sum_{n=1}^{\infty} \left\{ \frac{2 P_n}{t} -\frac{n P_n}{t^2}+ \frac{\left(-1\right)^{n+1}}{2 n} e^{n \left(\psi+1/t\right)} \left[ K_1 \left( \frac{n}{t} \right)+K_3 \left( \frac{n}{t} \right) \right] \right\} \]
+\form#19:$ \psi < -4 $
+\form#20:\[ R_n \equiv \frac{P_{n}}{P_{1}} = \frac{(-1)^{n+1} e^{(n-1)(\psi+1/t)} K_2(n/t) }{n^2 K_2(1/t)} \]
+\form#21:$ |R_{20}| $
+\form#22:$ t \rightarrow 0 $
+\form#23:$ x \equiv n/t \rightarrow \infty $
+\form#24:\[ \sqrt{\frac{2 x}{\pi}} e^{x} K_2(x) \approx 1 + \frac{3}{8 x} - \frac{15}{128 x^2} + ... \]
+\form#25:$ x^{-12} $
+\form#26:$ 10^{-18} $
+\form#27:$ (20/700)^{12} \sim 10^{-19} $
+\form#28:$ n^3 \gg T $
+\form#29:$ T \gg n^3 $
+\form#30:\[ \alpha = \frac{g^2 \pi^2 T^6}{243 n^2} \]
+\form#31:\[ \mathrm{cbt} = \alpha^{-1/6} \left( -1 + \sqrt{1+\alpha}\right)^{1/3} \]
+\form#32:\[ \mu = \frac{\pi T}{\sqrt{3}} \left(\frac{1}{\mathrm{cbt}} - \mathrm{cbt} \right) \]
+\form#33:$ \alpha $
+\form#34:$ \alpha > 10^{4} $
+\form#35:$ \alpha < 3 \times 10^{-4} $
+\form#36:\[ \left(\frac{1}{\mathrm{cbt}} - \mathrm{cbt} \right) \approx \frac{2^{1/3}}{\alpha^{1/6}} - \frac{\alpha^{1/6}}{2^{1/3}} + \frac{\alpha^{5/6}}{6{\cdot}2^{2/3}} + \frac{\alpha^{7/6}}{12{\cdot}2^{1/3}} - \frac{\alpha^{11/6}}{18{\cdot}2^{2/3}} - \frac{5 \alpha^{13/6}}{144{\cdot}2^{1/3}} + \frac{77 \alpha^{17/6}}{2592{\cdot}2^{2/3}} \]
+\form#37:\[ \left(\frac{1}{\mathrm{cbt}} - \mathrm{cbt} \right) \approx \frac{2}{3} \sqrt{\frac{1}{\alpha}} - \frac{8}{81} \left(\frac{1}{\alpha}\right)^{3/2} + \frac{32}{729} \left(\frac{1}{\alpha}\right)^{5/2} \]
+\form#38:$ 10^{12} $
+\form#39:$ T = \left\{10^{-2},1,10^{2}\right\} $
+\form#40:$ \log_{10} (m/T) = \left\{ -3,-2,-1,0,1,2,3\right\} $
+\form#41:$ \log_{10} \psi = \left\{ -3,-2,-1,0,1\right\} $
+\form#42:$ \psi \equiv \left(\mu-m\right)/T $
+\form#43:\[ \left\{1+\exp\left[\left(\frac{k^2} {2 m^{*}}-\nu\right)/T\right]\right\}^{-1} \]
+\form#44:$ \nu $
+\form#45:$ m $
+\form#46:$ m^{*} $
+\form#47:$ E^{*} = k^2/2/m^{*} $
+\form#48:\[ \frac{\partial f}{\partial T}= f(1-f)\frac{E^{*}-\nu}{T^2} \]
+\form#49:\[ \frac{\partial f}{\partial \nu}= f(1-f)\frac{1}{T} \]
+\form#50:\[ \frac{\partial f}{\partial k}= -f(1-f)\frac{k}{m^{*} T} \]
+\form#51:\[ \frac{\partial f}{\partial m^{*}}= f(1-f)\frac{k^2}{2 m^{*2} T} \]
+\form#52:\[ {\cal S}\equiv f \ln f +(1-f) \ln (1-f) \qquad \frac{\partial {\cal S}}{\partial f} = \ln \left(\frac{f}{1-f}\right) = \left(\frac{\nu-E^{*}}{T}\right) \]
+\form#53:\[ s = - \frac{g}{2 \pi^2} \int_0^{\infty} {\cal S} k^2 d k \]
+\form#54:\[ \int_a^b f(k) \frac{d g(k)}{dk} dk = \left.f(k) g(k)\right|_{k=a}^{k=b} - \int_a^b g(k) \frac{d f(k)}{dk} dk \]
+\form#55:$ f(k) $
+\form#56:$ \infty $
+\form#57:\[ \frac{g}{2 \pi^2} \int_0^{\infty} \frac{d g(k)}{dk} f dk = \frac{g}{2 \pi^2} \int_0^{\infty} g(k) f (1-f) \frac{k}{E^{*} T} dk \]
+\form#58:$ g(k) $
+\form#59:$ k=0 $
+\form#60:\[ \frac{g}{2 \pi^2} \int_0^{\infty} h(k) f (1-f) dk = \frac{g}{2 \pi^2} \int_0^{\infty} f \frac{T m^{*}}{k} \left[ h^{\prime} - \frac{h}{k}\right] d k \]
+\form#61:$ h(k)/k $
+\form#62:\[ \left(\frac{d n}{d \mu}\right)_T = \frac{g}{2 \pi^2} \int_0^{\infty} \frac{k^2}{T} f (1-f) dk \]
+\form#63:$ h(k)=k^2/T $
+\form#64:\[ \left(\frac{d n}{d \mu}\right)_T = \frac{g}{2 \pi^2} \int_0^{\infty} m^{*} f dk \]
+\form#65:\[ \left(\frac{d n}{d T}\right)_{\mu} = \frac{g}{2 \pi^2} \int_0^{\infty} \frac{k^2(E^{*}-\nu)}{T^2} f (1-f) dk \]
+\form#66:$ h(k)=k^2(E^{*}-\nu)/T^2 $
+\form#67:\[ \left(\frac{d n}{d T}\right)_{\mu} = \frac{g}{2 \pi^2} \int_0^{\infty} \frac{f}{T} \left[m^{*} \left(E^{*}-\nu\right) -k^2\right] d k \]
+\form#68:\[ \left(\frac{d s}{d \mu}\right)_T = \frac{g}{2 \pi^2} \int_0^{\infty} k^2 f (1-f) \frac{(E^{*}-\nu)}{T^2} dk \]
+\form#69:\[ \left(\frac{d s}{d \mu}\right)_T = \left(\frac{d n}{d T}\right)_{\mu} \]
+\form#70:\[ \left(\frac{d s}{d T}\right)_{\mu} = \frac{g}{2 \pi^2} \int_0^{\infty} k^2 f (1-f) \frac{(E^{*}-\nu)^2}{T^3} dk \]
+\form#71:$ h(k)=k^2 (E^{*}-\nu)^2/T^3 $
+\form#72:\[ \left(\frac{d s}{d T}\right)_{\mu} = \frac{g}{2 \pi^2} \int_0^{\infty} f \frac{m^{*}}{T^2} \left[\left( E^{*}-\nu \right)^2 +\frac{2 k^2}{m^{*}} \left(E^{*}-\nu\right)\right] d k \]
+\form#73:\[ \left(\frac{d n}{d m^{*}}\right)_{T,\mu} = \frac{g}{2 \pi^2} \int_0^{\infty} \frac{k^2}{2 m^{* 2} T} f (1-f) k^2 dk \]
+\form#74:$ h(k)=k^4/(2 m^{* 2} T) $
+\form#75:\[ \left(\frac{d n}{d m^{*}}\right)_{T,\mu} = \frac{g}{2 \pi^2} \int_0^{\infty} f \frac{3 k^2}{2 m^{*}} d k \]
+\form#76:$ u = k^2/2/m^{*}/T $
+\form#77:$ y=\mu/T $
+\form#78:\[ k d k = m^{*} T d u \]
+\form#79:\[ d k = \frac{m^{*} T}{\sqrt{2 m^{*} T u}} d u = \sqrt{\frac{m^{*} T}{2 u}} d u \]
+\form#80:\[ \left(\frac{d n}{d \mu}\right)_T = \frac{g m^{* 3/2} \sqrt{T}}{2^{3/2} \pi^2} \int_0^{\infty} u^{-1/2} f d u \]
+\form#81:\[ \left(\frac{d n}{d T}\right)_{\mu} = \frac{g m^{* 3/2} \sqrt{T}} {2^{3/2} \pi^2} \int_0^{\infty} f d u \left[ 3 u^{1/2} - y u^{-1/2}\right] \]
+\form#82:\[ \left(\frac{d s}{d T}\right)_{\mu} = \frac{g m^{* 3/2} T^{1/2}}{2^{3/2} \pi^2} \int_0^{\infty} f \left[ 5 u^{3/2} - 6 y u^{1/2} + y^2 u^{-1/2}\right] d u \]
+\form#83:\[ \left(\frac{d n}{d m^{*}}\right)_{T,\mu} = \frac{3 g m{* 1/2} T^{3/2}}{2^{3/2} \pi^2} \int_0^{\infty} u^{1/2} f d u \]
+\form#84:$ \exp(-\mathrm{f{l}imit}) $
+\form#85:\[ \left\{1+\exp[(\sqrt{k^2+m^{* 2}}-m-\nu)/T]\right\}^{-1} \]
+\form#86:$ k $
+\form#87:$ E^{*} = \sqrt{k^2 + m^{*2}} $
+\form#88:\[ \psi=(\nu+(m-m^{*}))/T \]
+\form#89:$ [0,\infty) $
+\form#90:\[ (\sqrt{k^2+m^{*,2}}-m-\nu)/T=\mathrm{f{l}imit} \]
+\form#91:\[ \sqrt{(m+{\cal L})^2-m^{*2}} \]
+\form#92:$ {\cal L}\equiv\mathrm{f{l}imit}\times T+\nu $
+\form#93:\[ 2 \sqrt{\nu^2+2 \nu m} - \mathrm{upper~limit} \]
+\form#94:$ u=k/T $
+\form#95:$ \sqrt{k^2+m^{* 2}}-m $
+\form#96:$ m^{*}\approx m << k $
+\form#97:\[ \frac{\partial f}{\partial T}= f(1-f)\frac{E^{*}-m-\nu}{T^2} \]
+\form#98:\[ \frac{\partial f}{\partial k}= -f(1-f)\frac{k}{E^{*} T} \]
+\form#99:\[ \frac{\partial f}{\partial m^{*}}= -f(1-f)\frac{m^{*}}{E^{*} T} \]
+\form#100:\[ {\cal S}\equiv f \ln f +(1-f) \ln (1-f) \qquad \frac{\partial {\cal S}}{\partial f} = \ln \left(\frac{f}{1-f}\right) = \left(\frac{\nu-E^{*}+m}{T}\right) \]
+\form#101:\[ \frac{g}{2 \pi^2} \int_0^{\infty} h(k) f (1-f) dk = \frac{g}{2 \pi^2} \int_0^{\infty} f \frac{T}{k} \left[ h^{\prime} E^{*}-\frac{h E^{*}}{k}+\frac{h k}{E^{*}} \right] dk \]
+\form#102:\[ \left(\frac{d n}{d \mu}\right)_T = \frac{g}{2 \pi^2} \int_0^{\infty} \left(\frac{k^2+E^{*2}}{E^{*}}\right) f dk \]
+\form#103:\[ \left(\frac{d n}{d T}\right)_{\mu} = \frac{g}{2 \pi^2} \int_0^{\infty} \frac{k^2(E^{*}-m-\nu)}{T^2} f (1-f) dk \]
+\form#104:\[ \left(\frac{d n}{d T}\right)_{\mu} = \frac{g}{2 \pi^2} \int_0^{\infty} \frac{f}{T} \left[2 k^2+E^{*2}-E^{*}\left(\nu+m\right)- k^2 \left(\frac{\nu+m}{E^{*}}\right)\right] dk \]
+\form#105:\[ \left(\frac{d s}{d \mu}\right)_T = \frac{g}{2 \pi^2} \int_0^{\infty} k^2 f (1-f) \frac{(E^{*}-m-\nu)}{T^2} dk \]
+\form#106:\[ \left(\frac{d s}{d T}\right)_{\mu} = \frac{g}{2 \pi^2} \int_0^{\infty} k^2 f (1-f) \frac{(E^{*}-m-\nu)^2}{T^3} dk \]
+\form#107:\[ \left(\frac{d s}{d T}\right)_{\mu} = \frac{g}{2 \pi^2} \int_0^{\infty} \frac{f(E^{*}-m-\nu)}{E^{*}T^2} \left[E^{* 3}+3 E^{*} k^2- (E^{* 2}+k^2)(\nu+m)\right] d k \]
+\form#108:\[ \left(\frac{d n}{d m^{*}}\right)_{T,\mu} = -\frac{g}{2 \pi^2} \int_0^{\infty} \frac{k^2 m^{*}}{E^{*} T} f (1-f) dk \]
+\form#109:$ h(k)=-(k^2 m^{*})/(E^{*} T) $
+\form#110:\[ \left(\frac{d n}{d m^{*}}\right)_{T,\mu} = -\frac{g}{2 \pi^2} \int_0^{\infty} m^{*} f dk \]
+\form#111:$ k \in (0, \mathrm{ulimit/2}) $
+\form#112:$ k \in (\mathrm{ulimit/2}, \mathrm{ulimit}) $
+\form#113:$ \mathrm{llimit} $
+\form#114:$ f(1-f) $
+\form#115:\[ \psi= 2 \sqrt{1+f/a}+\log\left(\frac{\sqrt{1+f/a}-1} {\sqrt{1+f/a}+1}\right) \]
+\form#116:$ f/a<10^{-10} $
+\form#117:\[ \psi= 2 \left[1+f/(2 a)\right]+\log\left\{\frac{f/(2 a)} {\left[1+f/(2 a)\right]}\right\} \]
+\form#118:$ (\mu-m)/T $
+\form#119:$ (\nu-m^{*})/T $
+\form#120:$ (\mu-m)/T = -199 $
+\form#121:\[ \tilde{m}^2 = m^2 + 2 \left( n + \frac{1}{2} - \frac{q \sigma}{2 |q|} \right) |q| B \]
+\form#122:$ q $
+\form#123:$ \sigma $
+\form#124:\[ k_{F,\sigma}^2 = \mu^2 - \tilde{m}_{\sigma}^2 \]
+\form#125:\[ n = \frac{|q| B}{2 \pi^2} \sum_{\sigma} \sum_{n=0}^{n_{\mathrm{max},\sigma}} k_{F,\sigma} \]
+\form#126:$ n_{\mathrm{max},\sigma} $
+\form#127:$ n $
+\form#128:$ \mu < \tilde{m} $
+\form#129:$ n_{\mathrm{max}} $
+\form#130:$ \sigma=1 $
+\form#131:\[ e B = 1.5~\times~10^{-19}~\mathrm{fm}^{-2} \]
+\form#132:$ \mathrm{fm}^{-2} $
+\form#133:$ 10^{6} $
+\form#134:\[ P = 2 \varepsilon/3 \]
+\form#135:\[ s = \frac{5 \varepsilon}{3 T} - \frac{n \mu}{T} \]
+\form#136:$ -\infty $
+\form#137:\[ \psi=(\nu-m^{*})/T \]
+\form#138:\[ \psi=(\nu+m-m^{*})/T \]
+\form#139:\[ \mathrm{upper~limit} = \sqrt{{\cal L}^2-m^{*,2}} \]
+\form#140:$ {\cal L}\equiv u T+\nu $
+\form#141:$ u $
+\form#142:\[ \mathrm{upper~limit} = \sqrt{(m+{\cal L})^2-m^{*2}} \]
+\form#143:\[ - u = \frac{\sqrt{k^2+m^{* 2}}-\nu}{T} \]
+\form#144:\[ \mathrm{lower~limit} = \sqrt{(-u T+{\nu})^2-m^{*,2}} \]
+\form#145:$ (m^{*}-\nu)/T < -u $
+\form#146:\[ \mathrm{lower~limit} = \sqrt{(-u T + m +\nu)^2-m^{*,2}} \]
+\form#147:$ (m^{*}-\nu - m)/T < -u $
+\form#148:\[ - k^2 \left[ f \log f + \left(1-f\right) \log \left(1-f \right) \right] \]
+\form#149:$ (E^{*} - \nu)/T $
+\form#150:$ (E^{*} - \nu)/T < S $
+\form#151:$ S $
+\form#152:\[ -k^2 \left( E/T-\nu/T \right) e^{E/T-\nu/T} \, . \]
+\form#153:$ (E - \nu)/T < S $
+\form#154:$ p = \sqrt{\left(T u + m^{*}\right)^2-m^{* 2}} $
+\form#155:$ y \equiv \nu/ T $
+\form#156:$ \mathrm{mx} \equiv m^{*}/T $
+\form#157:\[ \left(\mathrm{mx}+u\right) \sqrt{u^2+2 (\mathrm{mx}) u} \left(\frac{e^{y}}{e^{\mathrm{mx}+u}+e^{y}}\right) \, , \]
+\form#158:\[ \left(\mathrm{mx}+u\right)^2 \sqrt{u^2+2 (\mathrm{mx}) u} \left(\frac{e^{y}}{e^{\mathrm{mx}+u}+e^{y}}\right) \, , \]
+\form#159:\[ \left(\mathrm{mx}+u\right) \sqrt{u^2+2 (\mathrm{mx}) u} \left(t_1+t_2\right) \, , \]
+\form#160:\begin{eqnarray*} t_1 &=& \log \left(1+e^{y-\mathrm{mx}-u}\right)/ \left(1+e^{y-\mathrm{mx}-u}\right) \nonumber \\ t_2 &=& \log \left(1+e^{\mathrm{mx}+u-y}\right)/ \left(1+e^{\mathrm{mx}+u-y}\right) \, . \end{eqnarray*}
+\form#161:$ 10^6 $
+\form#162:$ 10^{10} $
+\form#163:\[ \mu_{\mathrm{anti}} = - \mu \qquad\mathrm{and}\qquad \nu_{\mathrm{anti}} = - \nu \]
+\form#164:\[ \mu_{\mathrm{anti}} = - \mu - 2 m \qquad\mathrm{and}\qquad \nu_{\mathrm{anti}} = - \nu - 2 m \]
+\form#165:\[ \left(\frac{d n}{d \mu}\right)_{T,V}, \quad \left(\frac{d n}{d T}\right)_{\mu,V}, \quad \mathrm{and} \quad \left(\frac{d s}{d T}\right)_{\mu,V} \]
+\form#166:\[ \left(\frac{d n}{d \nu}\right)_{T,V}, \quad \left(\frac{d n}{d T}\right)_{\nu,V}, \quad \left(\frac{d s}{d T}\right)_{\nu,V}, \quad \mathrm{and} \quad \left(\frac{d n}{d m^{*}}\right)_{T,\nu,V}, \]
+\form#167:\[ \left(\frac{d s}{d \mu}\right)_{T,V} = \left(\frac{d n}{d T}\right)_{\mu,V} \]
+\form#168:\[ \left(\frac{d P}{d \mu}\right)_{T,V}=n, \quad \left(\frac{d P}{d T}\right)_{\mu,V}=s \]
+\form#169:\[ \left(\frac{d \varepsilon}{d \mu}\right)_{T,V}= \mu \left(\frac{d n}{d \mu}\right)_{T,V}+ T \left(\frac{d s}{d \mu}\right)_{T,V} \]
+\form#170:\[ \left(\frac{d \varepsilon}{d T}\right)_{\mu,V}= \mu \left(\frac{d n}{d T}\right)_{\mu,V}+ T \left(\frac{d s}{d T}\right)_{\mu,V} \]
+\form#171:$ c_V $
+\form#172:\[ c_V = \frac{T}{N} \left( \frac{\partial S}{\partial T} \right)_{V,N} = \frac{T}{n} \left( \frac{\partial s}{\partial T} \right)_{V,n} \]
+\form#173:$ \hbar = c = k_B = 1 $
+\form#174:$ \mu, V $
+\form#175:$ T $
+\form#176:\[ s=s(\mu,T,V) \quad \mathrm{and} \quad n=n(\mu,T,V) \, . \]
+\form#177:\[ s=s[\mu(n,T,V),T,V] \]
+\form#178:\[ \left(\frac{\partial s}{\partial T}\right)_{n,V} = \left(\frac{\partial s}{\partial \mu}\right)_{T,V} \left(\frac{\partial \mu}{\partial T}\right)_{n,V} + \left(\frac{\partial s}{\partial T}\right)_{\mu,V} \, . \]
+\form#179:\[ \left(\frac{\partial \mu}{\partial T}\right)_{n,V} = - \left(\frac{\partial n}{\partial T}\right)_{\mu,V} \left(\frac{\partial n}{\partial \mu}\right)_{T,V}^{-1} \, , \]
+\form#180:\[ C_V = \frac{T}{n} \left[ \left(\frac{\partial s}{\partial T}\right)_{\mu,V} -\left(\frac{\partial n}{\partial T}\right)_{\mu,V}^2 \left(\frac{\partial n}{\partial \mu}\right)_{T,V}^{-1} \right] \]
+\form#181:$ c_P $
+\form#182:\[ c_P = \frac{T}{N} \left( \frac{\partial S}{\partial T} \right)_{N,P} \]
+\form#183:\[ S=S(N,T,V) \qquad \mathrm{and} \qquad V=V(N,P,T) \]
+\form#184:\[ \left( \frac{\partial S}{\partial T} \right)_{N,P} = \left( \frac{\partial S}{\partial T} \right)_{N,V} + \left( \frac{\partial S}{\partial V} \right)_{N,T} \left( \frac{\partial V}{\partial T} \right)_{N,P} \, . \]
+\form#185:\[ \left( \frac{\partial S}{\partial T} \right)_{N,V} , \left( \frac{\partial S}{\partial V} \right)_{N,T} , \qquad\mathrm{and}\qquad \left( \frac{\partial V}{\partial T} \right)_{N,P} \, . \]
+\form#186:\[ S=S(\mu(N,T,V),T,V) \]
+\form#187:\[ \left( \frac{\partial S}{\partial T} \right)_{N,V} = \left( \frac{\partial S}{\partial \mu} \right)_{T,V} \left( \frac{\partial \mu}{\partial T} \right)_{N,V} + \left( \frac{\partial S}{\partial T} \right)_{\mu,V} \, , \]
+\form#188:\[ \left( \frac{\partial S}{\partial V} \right)_{N,T} = \left( \frac{\partial S}{\partial \mu} \right)_{T,V} \left( \frac{\partial \mu}{\partial V} \right)_{N,T} + \left( \frac{\partial S}{\partial V} \right)_{\mu,T} \, . \]
+\form#189:\[ \left( \frac{\partial \mu}{\partial T} \right)_{N,V} = -\left( \frac{\partial S}{\partial N} \right)_{T,V} \qquad\mathrm{and}\qquad \left( \frac{\partial \mu}{\partial V} \right)_{N,T} = -\left( \frac{\partial P}{\partial N} \right)_{T,V} \, . \]
+\form#190:\[ \left( \frac{\partial S}{\partial N} \right)_{T,V} = \left( \frac{\partial S}{\partial \mu} \right)_{T,V} \left( \frac{\partial N}{\partial \mu} \right)_{T,V}^{-1} \, , \]
+\form#191:\[ \left( \frac{\partial P}{\partial N} \right)_{T,V} = \left( \frac{\partial P}{\partial \mu} \right)_{T,V} \left( \frac{\partial N}{\partial \mu} \right)_{T,V}^{-1} \, . \]
+\form#192:\[ \left( \frac{\partial V}{\partial T} \right)_{N,P} \, , \]
+\form#193:\[ \alpha \equiv \frac{1}{V} \left( \frac{\partial V}{\partial T} \right)_{N,P} \, . \]
+\form#194:\[ \left( \frac{\partial V}{\partial T} \right)_{N,P} = -\left( \frac{\partial P}{\partial T} \right)_{N,V} \left( \frac{\partial P}{\partial V} \right)_{N,T}^{-1} \, . \]
+\form#195:\[ \left( \frac{\partial P}{\partial T} \right)_{N,V} = \left( \frac{\partial S}{\partial V} \right)_{N,T} \, , \]
+\form#196:$ \kappa_T \equiv (-1/V) (\partial V/\partial P)_{T,N} $
+\form#197:$ P = P[\mu(N,V,T),V,T] $
+\form#198:\[ \left( \frac{\partial P}{\partial V} \right)_{N,T} = \left( \frac{\partial P}{\partial \mu} \right)_{T,V} \left( \frac{\partial \mu}{\partial V} \right)_{N,T} + \left( \frac{\partial P}{\partial V} \right)_{\mu,T} \]
+\form#199:\[ \left( \frac{\partial S}{\partial T} \right)_{N,P} = \left( \frac{\partial S}{\partial T} \right)_{\mu,V} + \frac{S^2}{N^2} \left( \frac{\partial N}{\partial \mu} \right)_{T,V} - \frac{2 S}{N} \left( \frac{\partial N}{\partial T} \right)_{\mu,V} \, , \]
+\form#200:\[ c_P = \frac{T}{n} \left( \frac{\partial s}{\partial T} \right)_{\mu,V} + \frac{s^2 T}{n^3} \left( \frac{\partial n}{\partial \mu} \right)_{T,V} - \frac{2 s T}{n^2} \left( \frac{\partial n}{\partial T} \right)_{\mu,V} \, , \]
+\form#201:\[ c_P = c_V + \frac{T \alpha^2}{n \kappa_T} \, . \]
+\form#202:\[ \left(\frac{dn}{dm^{*}}\right)_{\mu,T} = \left(\frac{3 n}{m^{*}}\right) - \frac{T}{m^{*}} \left(\frac{dn}{dT}\right)_{m^{*},\mu} - \frac{\nu}{m^{*}} \left(\frac{dn}{d\mu}\right)_{m^{*},T} \]
+\form#203:$ \mathrm{fm}^{-1} $
+\form#204:\[ \mathrm{binding~energy} = A u - Z \left(m_p + m_e\right) - N m_n + \mathrm{mass~excess} \]
+\form#205:\[ \mathrm{total~mass} = \mathrm{mass~excess} + A u - Z m_e \]
+\form#206:\[ 14.4381 \times 10^{-6} Z^{2.39} + 1.55468 \times 10^{-12} Z^{5.35}~\mathrm{MeV} \]
+\form#207:\[ E/A = B + S_s \frac{1}{A^{1/3}}+E_c \frac{Z^2}{A^{4/3}} + S_v \left(1-\frac{2Z}{A}\right)^2+E_{\mathrm{pair}}(Z,N) \]
+\form#208:\[ E_{\mathrm{pair}}(Z,N) = - \frac{E_{\mathrm{pair}}}{2 A^{3/2}} \left[ \cos \left( \pi Z \right)+\cos \left( \pi N \right) \right] \]
+\form#209:\[ E_{\mathrm{pair}}(Z,N) = \frac{E_{\mathrm{pair}}}{A^{3/2}} \times \left\{ \begin{array}{rl} -1 & \mathrm{N~and~Z~even} \\ +1 & \mathrm{N~and~Z~odd} \\ 0 & \mathrm{otherwise} \end{array} \right. \]
+\form#210:$ Z $
+\form#211:$ N $
+\form#212:\[ N = 4 \pi \rho_0 \int r^2~dr~\left\{1+\exp \left[\left(r-R_{\mathrm{fermi}}\right)/d\right]\right\}^{-1} \]
+\form#213:$ d $
+\form#214:$ R_{\mathrm{fermi}} $
+\form#215:$ \rho_0 $
+\form#216:\[ R_{\mathrm{cd}} = \left(\frac{3 N}{4 \pi \rho_0}\right)^3 \, , \]
+\form#217:$\mathrm{fm}^{-1}$
+\form#218:$ \mathrm{MeV} $
+\form#219:$ 4 \pi r^4 \rho(r) $
+\form#220:$ 4 \pi r^2 \rho(r) $
+\form#221:\[ \bar{\delta} = (n_n - n_p)/n \]
+\form#222:\[ \bar{\epsilon} = - (n-n_0)/3/n_0 \]
+\form#223:\[ n_n = \frac{1}{2} (1+\bar{\delta}) (1-3 \bar{\epsilon}) n_0 \]
+\form#224:\[ n_p = \frac{1}{2} (1-\bar{\delta}) (1-3 \bar{\epsilon}) n_0 \]
+\form#225:\[ \frac{4 \pi}{3} R_n^3 n_n = N \]
+\form#226:\[ \frac{4 \pi}{3} R_p^3 n_p = Z \]
+\form#227:\[ R_n^3 = 3 N / \alpha_n \]
+\form#228:\[ R_p^3 = 3 Z / \alpha_p \]
+\form#229:\[ \alpha_n = 2 \pi (1+ \bar{\delta})(1 - 3 \bar{\epsilon}) n_0 \]
+\form#230:\[ \alpha_p = 2 \pi (1- \bar{\delta})(1 - 3 \bar{\epsilon}) n_0 \]
+\form#231:\[ R^3 n = R_n^3 n_n + R_p^3 n_p \]
+\form#232:\[ R = r_0 A^{1/3} \]
+\form#233:$ r_0 = 1.16 $
+\form#234:$ n_0 = 0.152946 \mathrm{fm}^{-3} $
+\form#235:$ 1.433 \times 10^{-5} $
+\form#236:$ 10^{20} $
+\form#237:$ 10^9 K $
+\form#238:$g=2j+1$
+\form#239:$ \varepsilon $
+\form#240:$ P $
+\form#241:$ s $
+\form#242:\[ \sqrt{k^2+m^2} - \mu \rightarrow \sqrt{k^2+m^{* 2}} - \nu \]
+\form#243:$ - \mu $
+\form#244:$ - \mu - 2 m $
+\form#245:\[ P = -\varepsilon + s T + \nu n \]
+\form#246:\[ P = -\varepsilon + s T + \mu n \]
+\form#247:$ \hbar, c $
+\form#248:$ k_B $
+\form#249:$ [n] = [T]^3 = [m]^3 = [P]^{3/4} = [\varepsilon]^{3/4}$
+\form#250:$ 10^4 $
+\form#251:$ 10^2 $
+\form#252:$ ds/dT $
+\form#253:\[ \left(\frac{d n}{d \mu}\right)_{T}, \quad \left(\frac{d n}{d T}\right)_{\mu}, \quad \mathrm{and} \quad \left(\frac{d s}{d T}\right)_{\mu} \quad . \]

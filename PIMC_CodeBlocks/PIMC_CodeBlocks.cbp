@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PIMC_CodeBlocks" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PIMC_CodeBlocks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PIMC_CodeBlocks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../include" />
+		</Compiler>
+		<Linker>
+			<Add library="../lib/libblitz.a" />
+			<Add library="../lib/libboost_system.a" />
+			<Add library="../lib/libboost_filesystem.a" />
+			<Add library="../lib/libboost_program_options.a" />
+			<Add directory="../lib" />
+		</Linker>
+		<Unit filename="MersenneTwister.h" />
+		<Unit filename="action.cpp" />
+		<Unit filename="action.h" />
+		<Unit filename="cmc.cpp" />
+		<Unit filename="cmc.h" />
+		<Unit filename="common.h" />
+		<Unit filename="communicator.cpp" />
+		<Unit filename="communicator.h" />
+		<Unit filename="constants.cpp" />
+		<Unit filename="constants.h" />
+		<Unit filename="container.cpp" />
+		<Unit filename="container.h" />
+		<Unit filename="estimator.cpp" />
+		<Unit filename="estimator.h" />
+		<Unit filename="lookuptable.cpp" />
+		<Unit filename="lookuptable.h" />
+		<Unit filename="move.cpp" />
+		<Unit filename="move.h" />
+		<Unit filename="path.cpp" />
+		<Unit filename="path.h" />
+		<Unit filename="pdrive.cpp" />
+		<Unit filename="pimc.cpp" />
+		<Unit filename="pimc.h" />
+		<Unit filename="potential.cpp" />
+		<Unit filename="potential.h" />
+		<Unit filename="setup.cpp" />
+		<Unit filename="setup.h" />
+		<Unit filename="wavefunction.cpp" />
+		<Unit filename="wavefunction.h" />
+		<Unit filename="worm.cpp" />
+		<Unit filename="worm.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
